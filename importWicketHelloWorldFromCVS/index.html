@@ -82,13 +82,13 @@
 
 
 
-<meta name="description" content="目的 学习从CVS中导出项目 学习Wicket基本结构  例子来源Wicket User Guide - 2 How to use the example code">
+<meta name="description" content="目的 学习从 CVS 中导出项目 学习 Wicket 基本结构  例子来源Wicket User Guide - 2 How to use the example code">
 <meta name="keywords" content="Java,Wicket">
 <meta property="og:type" content="article">
-<meta property="og:title" content="从CVS中导出WicketHelloWorld">
+<meta property="og:title" content="从 CVS 中导出 WicketHelloWorld">
 <meta property="og:url" content="https://corningsun.com/importWicketHelloWorldFromCVS/index.html">
 <meta property="og:site_name" content="Corning Sun&#39;s Blog">
-<meta property="og:description" content="目的 学习从CVS中导出项目 学习Wicket基本结构  例子来源Wicket User Guide - 2 How to use the example code">
+<meta property="og:description" content="目的 学习从 CVS 中导出项目 学习 Wicket 基本结构  例子来源Wicket User Guide - 2 How to use the example code">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://i.imgur.com/VdT4ni0.png">
 <meta property="og:image" content="http://i.imgur.com/xjEIMFJ.png">
@@ -102,8 +102,8 @@
 <meta property="og:image" content="http://i.imgur.com/wCcEhAf.png">
 <meta property="og:updated_time" content="2016-12-28T08:31:23.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="从CVS中导出WicketHelloWorld">
-<meta name="twitter:description" content="目的 学习从CVS中导出项目 学习Wicket基本结构  例子来源Wicket User Guide - 2 How to use the example code">
+<meta name="twitter:title" content="从 CVS 中导出 WicketHelloWorld">
+<meta name="twitter:description" content="目的 学习从 CVS 中导出项目 学习 Wicket 基本结构  例子来源Wicket User Guide - 2 How to use the example code">
 <meta name="twitter:image" content="http://i.imgur.com/VdT4ni0.png">
 
 
@@ -140,7 +140,7 @@
 
 
 
-  <title>从CVS中导出WicketHelloWorld | Corning Sun's Blog</title>
+  <title>从 CVS 中导出 WicketHelloWorld | Corning Sun's Blog</title>
   
 
 
@@ -338,7 +338,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">从CVS中导出WicketHelloWorld</h2>
+          <h2 class="post-title" itemprop="name headline">从 CVS 中导出 WicketHelloWorld</h2>
         
 
         <div class="post-meta">
@@ -412,7 +412,7 @@
 
           
           
-             <span id="/importWicketHelloWorldFromCVS/" class="leancloud_visitors" data-flag-title="从CVS中导出WicketHelloWorld">
+             <span id="/importWicketHelloWorldFromCVS/" class="leancloud_visitors" data-flag-title="从 CVS 中导出 WicketHelloWorld">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -444,42 +444,42 @@
 
       
         <h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><ul>
-<li>学习从CVS中导出项目</li>
-<li>学习Wicket基本结构</li>
+<li>学习从 CVS 中导出项目</li>
+<li>学习 Wicket 基本结构</li>
 </ul>
 <h2 id="例子来源"><a href="#例子来源" class="headerlink" title="例子来源"></a>例子来源</h2><p><a href="http://wicket.apache.org/guide/guide/howToSource.html" title="http://wicket.apache.org/guide/guide/howToSource.html" target="_blank" rel="noopener">Wicket User Guide - 2 How to use the example code</a></p>
 <a id="more"></a>
 <h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><ul>
 <li>Eclipse</li>
-<li>Eclipse插件-CVS</li>
-<li>Eclipse插件-Maven</li>
-<li>Eclipse插件-Tomcat</li>
+<li>Eclipse 插件 - CVS</li>
+<li>Eclipse 插件 - Maven</li>
+<li>Eclipse 插件 - Tomcat</li>
 </ul>
-<p>为方便部署，我下载了一个JEE版本的Eclipse，包含所有插件</p>
+<p>为方便部署，我下载了一个 JEE 版本的 Eclipse，包含所有插件</p>
 <p><code>\\192.168.40.90\Tools\eclipse\eclipse-jee-luna-SR1-win32-x86_64.zip</code></p>
 <p>Tomcat</p>
 <p><code>\\192.168.40.90\Tools\Tomcat</code></p>
 <p>Maven</p>
 <p><code>\\192.168.40.90\Tools\apache-maven-3.1.0</code></p>
-<h2 id="建立CVS资源库"><a href="#建立CVS资源库" class="headerlink" title="建立CVS资源库"></a>建立CVS资源库</h2><blockquote>
+<h2 id="建立-CVS-资源库"><a href="#建立-CVS-资源库" class="headerlink" title="建立 CVS 资源库"></a>建立 CVS 资源库</h2><blockquote>
 <p>:pserver:<a href="mailto:yourName@192.168.1.182" target="_blank" rel="noopener">yourName@192.168.1.182</a>:/depcvs/platform_training<br>platform_training/demo/wicket/HelloWorldExample</p>
 </blockquote>
-<p>在CVS中添加资源库方法请参考：<a href="http://corningsun.gitcafe.io/2015/03/17/WCL%E5%85%A5%E9%97%A8/" target="_blank" rel="noopener">WCL入门</a></p>
-<h2 id="从CVS中Checkout"><a href="#从CVS中Checkout" class="headerlink" title="从CVS中Checkout"></a>从CVS中Checkout</h2><ul>
-<li>在CVS资源库中找到项目目录后，右键，选择<code>Check Out As...</code></li>
+<p>在 CVS 中添加资源库方法请参考：<a href="http://corningsun.gitcafe.io/2015/03/17/WCL%E5%85%A5%E9%97%A8/" target="_blank" rel="noopener">WCL 入门</a></p>
+<h2 id="从-CVS-中-Checkout"><a href="#从-CVS-中-Checkout" class="headerlink" title="从 CVS 中 Checkout"></a>从 CVS 中 Checkout</h2><ul>
+<li>在 CVS 资源库中找到项目目录后，右键，选择 <code>Check Out As...</code></li>
 </ul>
 <p><img src="http://i.imgur.com/VdT4ni0.png" alt=""></p>
 <ul>
-<li>选择<code>Check out as a project in the workspace</code>，点击<code>Finish</code></li>
+<li>选择 <code>Check out as a project in the workspace</code>，点击 <code>Finish</code></li>
 </ul>
 <p><img src="http://i.imgur.com/xjEIMFJ.png" alt=""></p>
 <ul>
-<li>此时项目已经导出到Eclipse的工作目录了</li>
+<li>此时项目已经导出到 Eclipse 的工作目录了</li>
 </ul>
 <p><img src="http://i.imgur.com/0ZuURWm.png" alt=""></p>
-<h2 id="转换为Maven项目"><a href="#转换为Maven项目" class="headerlink" title="转换为Maven项目"></a>转换为Maven项目</h2><p>如果在项目的根目录发现有<code>pom.xml</code>文件的话，那就表示此项目是支持Maven构建的。</p>
+<h2 id="转换为-Maven-项目"><a href="#转换为-Maven-项目" class="headerlink" title="转换为 Maven 项目"></a>转换为 Maven 项目</h2><p>如果在项目的根目录发现有 <code>pom.xml</code> 文件的话，那就表示此项目是支持 Maven 构建的。</p>
 <ul>
-<li>右键，找到<code>Configure</code>选项，选择<code>Convert to Maven Project</code></li>
+<li>右键，找到 <code>Configure</code> 选项，选择 <code>Convert to Maven Project</code></li>
 </ul>
 <p><img src="http://i.imgur.com/WGupso5.png" alt=""></p>
 <ul>
@@ -487,20 +487,20 @@
 </ul>
 <p><img src="http://i.imgur.com/MAtXU8F.png" alt=""></p>
 <ul>
-<li>如果转换为Maven后报错，可以试试如下方法</li>
+<li>如果转换为 Maven 后报错，可以试试如下方法</li>
 </ul>
-<p>右键，<code>Maven</code>，选择<code>Update Project</code></p>
+<p>右键，<code>Maven</code>，选择 <code>Update Project</code></p>
 <p><img src="http://i.imgur.com/uKWmi5I.png" alt=""></p>
 <h2 id="启动项目"><a href="#启动项目" class="headerlink" title="启动项目"></a>启动项目</h2><ul>
-<li>右键<code>Run As</code> 选择<code>Run on Server</code></li>
+<li>右键 <code>Run As</code> 选择 <code>Run on Server</code></li>
 </ul>
 <p><img src="http://i.imgur.com/bIlQpE7.png" alt=""></p>
 <ul>
-<li>选择一个tomcat Server,如果没有的话，需要新建一个</li>
+<li>选择一个 tomcat Server, 如果没有的话，需要新建一个</li>
 </ul>
 <p><img src="http://i.imgur.com/nFYvytF.png" alt=""></p>
 <ul>
-<li>点击<code>Finish</code>后，访问<code>http://localhost:8080/HelloWorldExample/</code>，效果如下</li>
+<li>点击 <code>Finish</code> 后，访问 <code>http://localhost:8080/HelloWorldExample/</code>，效果如下</li>
 </ul>
 <p><img src="http://i.imgur.com/V6adhwi.png" alt=""></p>
 <h2 id="代码结构"><a href="#代码结构" class="headerlink" title="代码结构"></a>代码结构</h2><p><img src="http://i.imgur.com/wCcEhAf.png" alt=""></p>
@@ -569,8 +569,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/MarkDownPad-Pro-experience/" rel="next" title="MarkDownPad Pro体验">
-                <i class="fa fa-chevron-left"></i> MarkDownPad Pro体验
+              <a href="/MarkDownPad-Pro-experience/" rel="next" title="MarkDownPad Pro 体验">
+                <i class="fa fa-chevron-left"></i> MarkDownPad Pro 体验
               </a>
             
           </div>
@@ -750,7 +750,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#目的"><span class="nav-number">1.</span> <span class="nav-text">目的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例子来源"><span class="nav-number">2.</span> <span class="nav-text">例子来源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境准备"><span class="nav-number">3.</span> <span class="nav-text">环境准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建立CVS资源库"><span class="nav-number">4.</span> <span class="nav-text">建立CVS资源库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#从CVS中Checkout"><span class="nav-number">5.</span> <span class="nav-text">从CVS中Checkout</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#转换为Maven项目"><span class="nav-number">6.</span> <span class="nav-text">转换为Maven项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#启动项目"><span class="nav-number">7.</span> <span class="nav-text">启动项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码结构"><span class="nav-number">8.</span> <span class="nav-text">代码结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#web-xml"><span class="nav-number">8.1.</span> <span class="nav-text">web.xml</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#WicketApplication-java"><span class="nav-number">8.2.</span> <span class="nav-text">WicketApplication.java</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HomePage-java"><span class="nav-number">8.3.</span> <span class="nav-text">HomePage.java</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HomePage-html"><span class="nav-number">8.4.</span> <span class="nav-text">HomePage.html</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#目的"><span class="nav-number">1.</span> <span class="nav-text">目的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例子来源"><span class="nav-number">2.</span> <span class="nav-text">例子来源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境准备"><span class="nav-number">3.</span> <span class="nav-text">环境准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建立-CVS-资源库"><span class="nav-number">4.</span> <span class="nav-text">建立 CVS 资源库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#从-CVS-中-Checkout"><span class="nav-number">5.</span> <span class="nav-text">从 CVS 中 Checkout</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#转换为-Maven-项目"><span class="nav-number">6.</span> <span class="nav-text">转换为 Maven 项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#启动项目"><span class="nav-number">7.</span> <span class="nav-text">启动项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码结构"><span class="nav-number">8.</span> <span class="nav-text">代码结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#web-xml"><span class="nav-number">8.1.</span> <span class="nav-text">web.xml</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#WicketApplication-java"><span class="nav-number">8.2.</span> <span class="nav-text">WicketApplication.java</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HomePage-java"><span class="nav-number">8.3.</span> <span class="nav-text">HomePage.java</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HomePage-html"><span class="nav-number">8.4.</span> <span class="nav-text">HomePage.html</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -916,7 +916,7 @@
         var disqus_config = function () {
           this.page.url = 'https://corningsun.com/importWicketHelloWorldFromCVS/';
           this.page.identifier = 'importWicketHelloWorldFromCVS/';
-          this.page.title = '从CVS中导出WicketHelloWorld';
+          this.page.title = '从 CVS 中导出 WicketHelloWorld';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://corningsun.disqus.com/embed.js';

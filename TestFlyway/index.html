@@ -82,20 +82,20 @@
 
 
 
-<meta name="description" content="About TestFlyway软件开发时，随着项目的进展，数据库表结构等不可避免的会一直在变化。不断变化必然导致繁琐的工作，如果只需要支持一种数据库，最简单的就是直接改Sql脚本。但是如果要同时兼容多种数据库时，全靠手工去改的话，一没效率，二不能保证正确；">
+<meta name="description" content="About TestFlyway软件开发时，随着项目的进展，数据库表结构等不可避免的会一直在变化。不断变化必然导致繁琐的工作，如果只需要支持一种数据库，最简单的就是直接改 Sql 脚本。但是如果要同时兼容多种数据库时，全靠手工去改的话，一没效率，二不能保证正确；">
 <meta name="keywords" content="数据库">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TestFlyway">
 <meta property="og:url" content="https://corningsun.com/TestFlyway/index.html">
 <meta property="og:site_name" content="Corning Sun&#39;s Blog">
-<meta property="og:description" content="About TestFlyway软件开发时，随着项目的进展，数据库表结构等不可避免的会一直在变化。不断变化必然导致繁琐的工作，如果只需要支持一种数据库，最简单的就是直接改Sql脚本。但是如果要同时兼容多种数据库时，全靠手工去改的话，一没效率，二不能保证正确；">
+<meta property="og:description" content="About TestFlyway软件开发时，随着项目的进展，数据库表结构等不可避免的会一直在变化。不断变化必然导致繁琐的工作，如果只需要支持一种数据库，最简单的就是直接改 Sql 脚本。但是如果要同时兼容多种数据库时，全靠手工去改的话，一没效率，二不能保证正确；">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://i.imgur.com/spXTjCE.jpg">
 <meta property="og:image" content="http://i.imgur.com/fIUPTMj.jpg">
 <meta property="og:updated_time" content="2016-12-28T08:37:59.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TestFlyway">
-<meta name="twitter:description" content="About TestFlyway软件开发时，随着项目的进展，数据库表结构等不可避免的会一直在变化。不断变化必然导致繁琐的工作，如果只需要支持一种数据库，最简单的就是直接改Sql脚本。但是如果要同时兼容多种数据库时，全靠手工去改的话，一没效率，二不能保证正确；">
+<meta name="twitter:description" content="About TestFlyway软件开发时，随着项目的进展，数据库表结构等不可避免的会一直在变化。不断变化必然导致繁琐的工作，如果只需要支持一种数据库，最简单的就是直接改 Sql 脚本。但是如果要同时兼容多种数据库时，全靠手工去改的话，一没效率，二不能保证正确；">
 <meta name="twitter:image" content="http://i.imgur.com/spXTjCE.jpg">
 
 
@@ -435,19 +435,21 @@
       
 
       
-        <h1 id="About-TestFlyway"><a href="#About-TestFlyway" class="headerlink" title="About TestFlyway"></a>About TestFlyway</h1><p>软件开发时，随着项目的进展，数据库表结构等不可避免的会一直在变化。不断变化必然导致繁琐的工作，如果只需要支持一种数据库，最简单的就是直接改Sql脚本。但是如果要同时兼容多种数据库时，全靠手工去改的话，一没效率，二不能保证正确；</p>
+        <h1 id="About-TestFlyway"><a href="#About-TestFlyway" class="headerlink" title="About TestFlyway"></a>About TestFlyway</h1><p>软件开发时，随着项目的进展，数据库表结构等不可避免的会一直在变化。不断变化必然导致繁琐的工作，如果只需要支持一种数据库，最简单的就是直接改 Sql 脚本。但是如果要同时兼容多种数据库时，全靠手工去改的话，一没效率，二不能保证正确；</p>
 <a id="more"></a>
-<p>只需要维护一种数据库的时候，一般都是编写数据库ER图，然后导出Sql脚本；</p>
-<p>以<a href="http://www.mysql.com/" title="http://www.mysql.com/" target="_blank" rel="noopener">Mysql</a>为例，可以用<a href="http://dev.mysql.com/downloads/workbench/" title="http://dev.mysql.com/downloads/workbench/" target="_blank" rel="noopener">Mysql WorkBench</a>设计数据库，然后导出Mysql脚本，最后导入数据库；</p>
-<p><img src="http://i.imgur.com/spXTjCE.jpg" alt="Mysql创建表"></p>
-<p><img src="http://i.imgur.com/fIUPTMj.jpg" alt="使用EER Diagram可以很方便的管理各表的关系"></p>
-<p><strong>当然这些还远远不够！</strong></p>
-<p>为了实现只需要维护一份数据库，必须有各数据库之间脚本转换工具<em>（主要是建表语句,不是数据迁移）</em>。</p>
-<pre><code>// TODO 已经在写，完善之后迁移到Github
-</code></pre><h1 id="About-Flyway"><a href="#About-Flyway" class="headerlink" title="About Flyway"></a>About Flyway</h1><p><em>官网的介绍</em><br>Evolve your Database Schema easily and reliably across all your instances<br>大概意思是，可以在任何地方简单可靠地实现你的数据库版本演变</p>
-<h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><p>具体怎么使用，不是本文重点，感兴趣可以去<a href="http://flywaydb.org/" title="http://flywaydb.org/" target="_blank" rel="noopener">Flyway官网</a>查看。</p>
-<h1 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h1><p>主要测试Flyway <strong>Migrate</strong>功能对数据库脚本的转化/兼容能力；</p>
-<p><a href="http://flywaydb.org/documentation/command/migrate.html" title="Migrate功能介绍" target="_blank" rel="noopener">Migrate功能介绍</a></p>
+<p>只需要维护一种数据库的时候，一般都是编写数据库 ER 图，然后导出 Sql 脚本；</p>
+<p>以 <a href="http://www.mysql.com/" title="http://www.mysql.com/" target="_blank" rel="noopener">Mysql</a> 为例，可以用 <a href="http://dev.mysql.com/downloads/workbench/" title="http://dev.mysql.com/downloads/workbench/" target="_blank" rel="noopener">Mysql WorkBench</a> 设计数据库，然后导出 Mysql 脚本，最后导入数据库；</p>
+<p><img src="http://i.imgur.com/spXTjCE.jpg" alt="Mysql 创建表"></p>
+<p><img src="http://i.imgur.com/fIUPTMj.jpg" alt="使用 EER Diagram 可以很方便的管理各表的关系"></p>
+<p><strong> 当然这些还远远不够！</strong></p>
+<p>为了实现只需要维护一份数据库，必须有各数据库之间脚本转换工具 <em>（主要是建表语句, 不是数据迁移）</em>。</p>
+<pre><code>// TODO 已经在写，完善之后迁移到 Github
+</code></pre><h1 id="About-Flyway"><a href="#About-Flyway" class="headerlink" title="About Flyway"></a>About Flyway</h1><ul>
+<li>官网的介绍 *<br>Evolve your Database Schema easily and reliably across all your instances<br>大概意思是，可以在任何地方简单可靠地实现你的数据库版本演变</li>
+</ul>
+<h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><p>具体怎么使用，不是本文重点，感兴趣可以去 <a href="http://flywaydb.org/" title="http://flywaydb.org/" target="_blank" rel="noopener">Flyway 官网</a> 查看。</p>
+<h1 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h1><p>主要测试 Flyway <strong>Migrate</strong> 功能对数据库脚本的转化 / 兼容能力；</p>
+<p><a href="http://flywaydb.org/documentation/command/migrate.html" title="Migrate 功能介绍" target="_blank" rel="noopener">Migrate 功能介绍</a></p>
 <h2 id="Sqlite-sql-to-Sqlite-Db"><a href="#Sqlite-sql-to-Sqlite-Db" class="headerlink" title="Sqlite sql to Sqlite Db"></a>Sqlite sql to Sqlite Db</h2><table>
 <thead>
 <tr>
@@ -479,14 +481,14 @@
 </tbody>
 </table>
 <ul>
-<li>Sqlite脚本详细</li>
+<li>Sqlite 脚本详细</li>
 </ul>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- V1__COMMON.sql</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> TB_COMMON</span><br><span class="line">(	</span><br><span class="line">	<span class="keyword">ID</span> <span class="built_in">INTEGER</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> ,</span><br><span class="line">	<span class="keyword">NAME</span> <span class="built_in">VARCHAR</span>(<span class="number">32</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span> </span><br><span class="line"></span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- V2__KEY.sql</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> TB_KEY</span><br><span class="line">(	</span><br><span class="line">	<span class="keyword">ID</span> <span class="built_in">INTEGER</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> ,</span><br><span class="line">	<span class="keyword">NAME</span> <span class="built_in">VARCHAR</span>(<span class="number">255</span>) </span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- V3__KEYAndAI.sql</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> TB_KEY_AI</span><br><span class="line">(	</span><br><span class="line">	<span class="keyword">ID</span> <span class="built_in">INTEGER</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> PRIMARY <span class="keyword">KEY</span> AUTOINCREMENT ,</span><br><span class="line">	<span class="keyword">NAME</span> <span class="built_in">VARCHAR</span>(<span class="number">255</span>) </span><br><span class="line">);</span><br></pre></td></tr></table></figure>
 <ul>
 <li>测试结果详细</li>
 </ul>
 <blockquote>
-<p>脚本=sqlite,版本=v1,结果=true<br>脚本=sqlite,版本=v2,结果=true<br>脚本=sqlite,版本=v3,结果=true  </p>
+<p>脚本 = sqlite, 版本 = v1, 结果 = true<br>脚本 = sqlite, 版本 = v2, 结果 = true<br>脚本 = sqlite, 版本 = v3, 结果 = true  </p>
 </blockquote>
 <h3 id="Mysql-sql-to-Sqlite-Db"><a href="#Mysql-sql-to-Sqlite-Db" class="headerlink" title="Mysql sql to Sqlite Db"></a>Mysql sql to Sqlite Db</h3><table>
 <thead>
@@ -519,7 +521,7 @@
 </tbody>
 </table>
 <ul>
-<li>MySql脚本详细</li>
+<li>MySql 脚本详细</li>
 </ul>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- V1__COMMON.sql</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> TB_COMMON</span><br><span class="line">(	</span><br><span class="line">	<span class="keyword">ID</span> <span class="built_in">INTEGER</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> ,</span><br><span class="line">	<span class="keyword">NAME</span> <span class="built_in">VARCHAR</span>(<span class="number">32</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span> </span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"><span class="keyword">ENGINE</span> = <span class="keyword">InnoDB</span></span><br><span class="line"><span class="keyword">DEFAULT</span> <span class="built_in">CHARACTER</span> <span class="keyword">SET</span> = gbk</span><br><span class="line"><span class="keyword">COLLATE</span> = gbk_chinese_ci;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- V2__KEY.sql</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> TB_KEY</span><br><span class="line">(	</span><br><span class="line">	<span class="keyword">ID</span> <span class="built_in">INTEGER</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> ,</span><br><span class="line">	<span class="keyword">NAME</span> <span class="built_in">VARCHAR</span>(<span class="number">255</span>) ,</span><br><span class="line">    PRIMARY <span class="keyword">KEY</span> (<span class="keyword">ID</span>)</span><br><span class="line">)</span><br><span class="line"><span class="keyword">ENGINE</span> = <span class="keyword">InnoDB</span></span><br><span class="line"><span class="keyword">DEFAULT</span> <span class="built_in">CHARACTER</span> <span class="keyword">SET</span> = gbk</span><br><span class="line"><span class="keyword">COLLATE</span> = gbk_chinese_ci;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- V3__KEYAndAI.sql</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> TB_KEY_AI</span><br><span class="line">(	</span><br><span class="line">	<span class="keyword">ID</span> <span class="built_in">INTEGER</span> <span class="keyword">NOT</span> <span class="literal">NULL</span> AUTO_INCREMENT ,</span><br><span class="line">	<span class="keyword">NAME</span> <span class="built_in">VARCHAR</span>(<span class="number">255</span>) ,</span><br><span class="line">    PRIMARY <span class="keyword">KEY</span> (<span class="keyword">ID</span>)</span><br><span class="line">)</span><br><span class="line"><span class="keyword">ENGINE</span> = <span class="keyword">InnoDB</span></span><br><span class="line"><span class="keyword">DEFAULT</span> <span class="built_in">CHARACTER</span> <span class="keyword">SET</span> = gbk</span><br><span class="line"><span class="keyword">COLLATE</span> = gbk_chinese_ci;</span><br></pre></td></tr></table></figure>
 <ul>
@@ -528,17 +530,17 @@
 <blockquote>
 <h2 id="Migration-V1-COMMON-sql-failed"><a href="#Migration-V1-COMMON-sql-failed" class="headerlink" title="Migration V1__COMMON.sql failed"></a>Migration V1__COMMON.sql failed</h2><p>SQL State  : null<br>Error Code : 1<br>Message    : [SQLITE_ERROR] SQL error or missing database (near “ENGINE”: syntax error)<br>Location   : db/migration/mysql/v1/V1__COMMON.sql (D:\Git_github_corningsun\test\flyway\source\target\classes\db\migration\mysql\v1\V1__COMMON.sql)<br>Line       : 1<br>Statement  : CREATE TABLE TB_COMMON<br>(<br>    ID INTEGER NOT NULL ,<br>    NAME VARCHAR(32) NOT NULL </p>
 <p>)<br>ENGINE = InnoDB<br>DEFAULT CHARACTER SET = gbk<br>COLLATE = gbk_chinese_ci</p>
-<p>脚本=mysql,版本=v1,结果=false</p>
+<p>脚本 = mysql, 版本 = v1, 结果 = false</p>
 <h2 id="Migration-V2-KEY-sql-failed"><a href="#Migration-V2-KEY-sql-failed" class="headerlink" title="Migration V2__KEY.sql failed"></a>Migration V2__KEY.sql failed</h2><p>SQL State  : null<br>Error Code : 1<br>Message    : [SQLITE_ERROR] SQL error or missing database (near “ENGINE”: syntax error)<br>Location   : db/migration/mysql/v2/V2__KEY.sql (D:\Git_github_corningsun\test\flyway\source\target\classes\db\migration\mysql\v2\V2__KEY.sql)<br>Line       : 1<br>Statement  : CREATE TABLE TB_KEY<br>(<br>    ID INTEGER NOT NULL ,<br>    NAME VARCHAR(255) ,<br>    PRIMARY KEY (ID)<br>)<br>ENGINE = InnoDB<br>DEFAULT CHARACTER SET = gbk<br>COLLATE = gbk_chinese_ci</p>
-<p>脚本=mysql,版本=v2,结果=false</p>
+<p>脚本 = mysql, 版本 = v2, 结果 = false</p>
 <h2 id="Migration-V3-KEYAndAI-sql-failed"><a href="#Migration-V3-KEYAndAI-sql-failed" class="headerlink" title="Migration V3__KEYAndAI.sql failed"></a>Migration V3__KEYAndAI.sql failed</h2><p>SQL State  : null<br>Error Code : 1<br>Message    : [SQLITE_ERROR] SQL error or missing database (near “AUTO_INCREMENT”: syntax error)<br>Location   : db/migration/mysql/v3/V3__KEYAndAI.sql (D:\Git_github_corningsun\test\flyway\source\target\classes\db\migration\mysql\v3\V3__KEYAndAI.sql)<br>Line       : 1<br>Statement  : CREATE TABLE TB_KEY_AI<br>(<br>    ID INTEGER NOT NULL AUTO_INCREMENT ,<br>    NAME VARCHAR(255) ,<br>    PRIMARY KEY (ID)<br>)<br>ENGINE = InnoDB<br>DEFAULT CHARACTER SET = gbk<br>COLLATE = gbk_chinese_ci</p>
-<p>脚本=mysql,版本=v3,结果=false</p>
+<p>脚本 = mysql, 版本 = v3, 结果 = false</p>
 </blockquote>
 <h2 id="测试总结"><a href="#测试总结" class="headerlink" title="测试总结"></a>测试总结</h2><ul>
-<li>数据源只能是脚本文件/Java类，不支持连接数据库</li>
+<li>数据源只能是脚本文件 / Java 类，不支持连接数据库</li>
 <li>使用脚本初始化数据库功能很好用</li>
-<li>Sqlite数据库脚本可以migrate到Sqlite数据库</li>
-<li>Mysql的数据库脚本无法migrate到Sqlite数据库</li>
+<li>Sqlite 数据库脚本可以 migrate 到 Sqlite 数据库</li>
+<li>Mysql 的数据库脚本无法 migrate 到 Sqlite 数据库</li>
 <li>没有脚本转换的功能</li>
 </ul>
 <p>对简单的建表语句支持还可以。但是主键、自增长、特殊字段等，兼容性不好；</p>
@@ -602,8 +604,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/GitStart/" rel="next" title="Git入门">
-                <i class="fa fa-chevron-left"></i> Git入门
+              <a href="/GitStart/" rel="next" title="Git 入门">
+                <i class="fa fa-chevron-left"></i> Git 入门
               </a>
             
           </div>
