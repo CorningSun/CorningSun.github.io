@@ -1,0 +1,2850 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta name="google-site-verification" content="nyGy0dTqhgRN6k0osCFzKoI0TkY4Av4CDlyjn-mgZq8">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="CorningSun, Blog, Java, Python">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Corning Sun's Blog" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="家家有本难念的经">
+<meta name="keywords" content="CorningSun Blog Java Python 程序员 博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Corning Sun&#39;s Blog">
+<meta property="og:url" content="https://corningsun.com/index.html">
+<meta property="og:site_name" content="Corning Sun&#39;s Blog">
+<meta property="og:description" content="家家有本难念的经">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Corning Sun&#39;s Blog">
+<meta name="twitter:description" content="家家有本难念的经">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://corningsun.com/">
+
+
+
+
+
+  <title>Corning Sun's Blog</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dd431dc02364ea567b4ddf9c9a3c81d6";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Corning Sun's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">Where's my sunshine...</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-love">
+          <a href="/love/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heart"></i> <br>
+            
+            love
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/IntelliJIDEA插件HTTPClient/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/IntelliJIDEA插件HTTPClient/" itemprop="url">IntelliJIDEA 插件 HTTPClient</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-12T16:30:24Z">
+                2019-03-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/IntelliJIDEA插件HTTPClient/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="IntelliJIDEA插件HTTPClient/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/IntelliJIDEA插件HTTPClient/" class="leancloud_visitors" data-flag-title="IntelliJIDEA 插件 HTTPClient">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>原文链接：<a href="https://github.com/corningsun/yuchigong/edit/httpClient/httpClient/README.md" target="_blank" rel="noopener">https://github.com/corningsun/yuchigong/edit/httpClient/httpClient/README.md</a></p>
+</blockquote>
+<h2 id="界面客户端"><a href="#界面客户端" class="headerlink" title="界面客户端"></a>界面客户端</h2><ul>
+<li>使用手册</li>
+</ul>
+<p><a href="https://www.jetbrains.com/help/idea/testing-restful-web-services.html" target="_blank" rel="noopener">https://www.jetbrains.com/help/idea/testing-restful-web-services.html</a></p>
+<ul>
+<li>Tools -&gt; HTTP Client -&gt; Test RESTful Web Service</li>
+</ul>
+<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1g0v80r2s3ej30e60a3dg8.jpg" alt=""></p>
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1g0vi5l1uyuj31c00u00vg.jpg" alt=""></p>
+<h2 id="文本客户端"><a href="#文本客户端" class="headerlink" title="文本客户端"></a>文本客户端</h2><ul>
+<li>使用手册</li>
+</ul>
+<p><a href="https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html" target="_blank" rel="noopener">https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html</a></p>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
+<li>纯文本编写</li>
+<li>支持统一配置</li>
+<li>支持 scripts 脚本</li>
+</ul>
+<h3 id="创建新的请求文件"><a href="#创建新的请求文件" class="headerlink" title="创建新的请求文件"></a>创建新的请求文件</h3><ul>
+<li>Scratch files （全局文件）</li>
+<li>physical files（项目文件）</li>
+</ul>
+<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1g0vitffcihj31c00u00uw.jpg" alt=""></p>
+<h3 id="live-templates"><a href="#live-templates" class="headerlink" title="live templates"></a>live templates</h3><ul>
+<li>‘gtrp’ and ‘gtr’ create a GET request with or without query parameters;</li>
+<li>‘ptr’ and ‘ptrp’ create a POST request with a simple or parameter-like body;</li>
+<li>‘mptr’ and ‘fptr’ create a POST request to submit a form with a text or file field (multipart/form-data);</li>
+</ul>
+<ul>
+<li>Live Templates 演示</li>
+</ul>
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1g0xnyirr3qg30w20i547l.gif" alt=""></p>
+<ul>
+<li>Live Templates 配置</li>
+</ul>
+<p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1g0vigan9atj31780u0djt.jpg" alt=""></p>
+<h3 id="支持-HTTP-1-1-所有方法"><a href="#支持-HTTP-1-1-所有方法" class="headerlink" title="支持 HTTP 1.1 所有方法"></a>支持 HTTP 1.1 所有方法</h3><p>POST、GET、PUT、DELETE、HEAD、OPTIONS、TRACE、CONNECT</p>
+<ul>
+<li>GET</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">### Get request with a header</span><br><span class="line">GET https:<span class="comment">//httpbin.org/ip</span></span><br><span class="line">Accept: application/json</span><br><span class="line"></span><br><span class="line">### Get request with parameter</span><br><span class="line">GET https:<span class="comment">//httpbin.org/get?show_env=1</span></span><br><span class="line">Accept: application/json</span><br><span class="line"></span><br><span class="line">### Get request with environment variables</span><br><span class="line">GET &#123;&#123;host&#125;&#125;/get?show_env=&#123;&#123;show_env&#125;&#125;</span><br><span class="line">Accept: application/json</span><br><span class="line"></span><br><span class="line">### Get request with disabled redirects</span><br><span class="line"># @no-redirect</span><br><span class="line">GET http:<span class="comment">//httpbin.org/status/301</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>POST</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">### Send POST request with json body</span><br><span class="line">POST https:<span class="comment">//httpbin.org/post</span></span><br><span class="line">Content-Type: application/json</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">"id"</span>: <span class="number">999</span>,</span><br><span class="line">  <span class="string">"value"</span>: <span class="string">"content"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">### Send POST request with body as parameters</span><br><span class="line">POST https:<span class="comment">//httpbin.org/post</span></span><br><span class="line">Content-Type: application/x-www-form-urlencoded</span><br><span class="line"></span><br><span class="line">id=<span class="number">999</span>&amp;value=content</span><br><span class="line"></span><br><span class="line">### Send a form with the text and file fields</span><br><span class="line">POST https:<span class="comment">//httpbin.org/post</span></span><br><span class="line">Content-Type: multipart/form-data; boundary=WebAppBoundary</span><br><span class="line"></span><br><span class="line">--WebAppBoundary</span><br><span class="line">Content-Disposition: form-data; name=<span class="string">"element-name"</span></span><br><span class="line">Content-Type: text/plain</span><br><span class="line"></span><br><span class="line">Name</span><br><span class="line">--WebAppBoundary</span><br><span class="line">Content-Disposition: form-data; name=<span class="string">"data"</span>; filename=<span class="string">"data.json"</span></span><br><span class="line">Content-Type: application/json</span><br><span class="line"></span><br><span class="line">&lt; ./request-form-data.json</span><br><span class="line">--WebAppBoundary--</span><br><span class="line"></span><br><span class="line">###</span><br></pre></td></tr></table></figure>
+<h3 id="演示项目简介"><a href="#演示项目简介" class="headerlink" title="演示项目简介"></a>演示项目简介</h3><ul>
+<li>Spring Boot - Spring Security</li>
+<li>首页 <a href="http://localhost:8080/index.html" target="_blank" rel="noopener">http://localhost:8080/index.html</a></li>
+<li>登陆页面 <a href="http://localhost:8080/login.html" target="_blank" rel="noopener">http://localhost:8080/login.html</a></li>
+<li>测试接口 (有登陆验证) <a href="http://localhost:8080/api/security/test" target="_blank" rel="noopener">http://localhost:8080/api/security/test</a></li>
+<li>测试账号，用户名： lee，密码：123456</li>
+</ul>
+<ul>
+<li>用浏览器直接访问测试接口会被强制跳转到登陆页面，登陆成功后返回接口调用结果。</li>
+<li>原理是登陆校验成功返回 JSESSIONID，客户端将 JSESSIONID 存到 Cookie ，服务端根据 Cookie 验证是否登陆。</li>
+</ul>
+<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1g0vjnuizmog30pj0hqaam.gif" alt=""></p>
+<h3 id="演示项目接口调用实战"><a href="#演示项目接口调用实战" class="headerlink" title="演示项目接口调用实战"></a>演示项目接口调用实战</h3><h4 id="登陆接口"><a href="#登陆接口" class="headerlink" title="登陆接口"></a>登陆接口</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">POST http:<span class="comment">//localhost:8080/api/login</span></span><br><span class="line">Content-Type: application/x-www-form-urlencoded</span><br><span class="line"></span><br><span class="line">account=lee&amp;password=<span class="number">123456</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 返回 </span></span><br><span class="line">HTTP/<span class="number">1.1</span> <span class="number">302</span> </span><br><span class="line"><span class="built_in">Set</span>-Cookie: JSESSIONID=A323D83D5E062588F4ACA433E891EA67; Path=<span class="regexp">/; HttpOnly</span></span><br><span class="line"><span class="regexp">Location: http:/</span><span class="regexp">/localhost:8080/i</span>ndex.html</span><br><span class="line">... 略 </span><br></pre></td></tr></table></figure>
+<h4 id="测试接口"><a href="#测试接口" class="headerlink" title="测试接口"></a>测试接口</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">GET http:<span class="comment">//localhost:8080/api/security/test</span></span><br><span class="line">Accept: application/json</span><br><span class="line">Cookie: JSESSIONID=A323D83D5E062588F4ACA433E891EA67</span><br><span class="line"></span><br><span class="line"><span class="comment">// 返回 </span></span><br><span class="line">HTTP/<span class="number">1.1</span> <span class="number">200</span> </span><br><span class="line"></span><br><span class="line">you have been authenticated</span><br></pre></td></tr></table></figure>
+<h4 id="查看请求历史"><a href="#查看请求历史" class="headerlink" title="查看请求历史"></a>查看请求历史</h4><ul>
+<li>点击右上角的按钮 <img src="https://www.jetbrains.com/help/img/idea/2018.3/icons.vcs.history.svg@2x.png" alt="Show HTTP Requests History"></li>
+</ul>
+<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1g0xnd91e2ag30w20i5qjd.gif" alt=""></p>
+<ul>
+<li>Tools | HTTP Client | Show HTTP Requests History</li>
+</ul>
+<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1g0xngeddspj30si0n4wg6.jpg" alt=""></p>
+<h3 id="演示接口重构-统一配置"><a href="#演示接口重构-统一配置" class="headerlink" title="演示接口重构 - 统一配置"></a>演示接口重构 - 统一配置</h3><h4 id="通用配置，域名-端口"><a href="#通用配置，域名-端口" class="headerlink" title="通用配置，域名 / 端口"></a>通用配置，域名 / 端口</h4><ul>
+<li><code>rest-client.env.json</code> 或 <code>http-client.env.json</code></li>
+</ul>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"default"</span>: &#123;</span><br><span class="line"></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">"local"</span>: &#123;</span><br><span class="line">    <span class="attr">"host"</span>: <span class="string">"http://localhost:8080"</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="个人安全配置，用户名-密码"><a href="#个人安全配置，用户名-密码" class="headerlink" title="个人安全配置，用户名 / 密码"></a>个人安全配置，用户名 / 密码</h4><ul>
+<li><code>rest-client.private.env.json</code> 或 <code>http-client.private.env.json</code></li>
+</ul>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"default"</span>: &#123;</span><br><span class="line"></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">"local"</span>: &#123;</span><br><span class="line">    <span class="attr">"account"</span>: <span class="string">"lee"</span>,</span><br><span class="line">    <span class="attr">"password"</span>: <span class="string">"123456"</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="重构后的请求文件"><a href="#重构后的请求文件" class="headerlink" title="重构后的请求文件"></a>重构后的请求文件</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">### 登陆 </span><br><span class="line">POST &#123;&#123;host&#125;&#125;/api/login</span><br><span class="line">Content-Type: application/x-www-form-urlencoded</span><br><span class="line"></span><br><span class="line">account=lee&amp;password=<span class="number">123456</span></span><br><span class="line"></span><br><span class="line">### 测试接口 </span><br><span class="line">GET &#123;&#123;host&#125;&#125;/api/security/test</span><br><span class="line">Accept: application/json</span><br><span class="line">Cookie: JSESSIONID=<span class="number">1</span>C1DD3EB60DEE60664FB0BFE0F1C9942</span><br><span class="line"></span><br><span class="line">###</span><br></pre></td></tr></table></figure>
+<h4 id="运行请求"><a href="#运行请求" class="headerlink" title="运行请求"></a>运行请求</h4><p>点击运行按钮，可以选择对应的环境</p>
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1g0xlokoo5hg30w30i27ap.gif" alt=""></p>
+<h3 id="使用-response-handler-scripts"><a href="#使用-response-handler-scripts" class="headerlink" title="使用 response handler scripts"></a>使用 response handler scripts</h3><h4 id="引用方式"><a href="#引用方式" class="headerlink" title="引用方式"></a>引用方式</h4><ul>
+<li>直接引用</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">GET host/api/test</span><br><span class="line"></span><br><span class="line">&gt; &#123;%</span><br><span class="line"><span class="comment">// Response Handler Script</span></span><br><span class="line">...</span><br><span class="line">%&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>文件引用</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GET host/api/test</span><br><span class="line"></span><br><span class="line">&gt; scripts/my-script.js</span><br></pre></td></tr></table></figure>
+<h4 id="主要方法"><a href="#主要方法" class="headerlink" title="主要方法"></a>主要方法</h4><p><a href="https://www.jetbrains.com/help/idea/http-response-handling-api-reference.html" target="_blank" rel="noopener">HTTP Response handling API reference</a></p>
+<ul>
+<li>client<ul>
+<li>client.global<ul>
+<li>set(varName, varValue) // 设置全局变量</li>
+<li>get(varName) // 获取全局变量</li>
+<li>isEmpty // 检查 global 是否为空</li>
+<li>clear(varName) // 删除变量</li>
+<li>clearAll // 删除所有变量</li>
+</ul>
+</li>
+<li>client.test(testName, func) // 创建一个名称为 <code>testName</code> 的测试</li>
+<li>client.assert(condition, message) // 校验条件 <code>condition</code> 是否成立，否则抛出异常 <code>message</code></li>
+<li>client.log(text) // 打印日志</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>response<ul>
+<li>response.body // 字符串 或  JSON (如果 <code>content-type</code> 为 <code>application/json</code>.)</li>
+<li>response.headers<ul>
+<li>valueOf(headerName) // 返回第一个匹配 headerName 的值，如果没有匹配的返回 null</li>
+<li>valuesOf(headerName) // 返回所有匹配 headerName 的值的数组，如果没有匹配的返回空数组</li>
+</ul>
+</li>
+<li>response.status // Http 状态码，如： 200 / 400</li>
+<li>response.contentType<ul>
+<li>mimeType // 返回 MIME 类型，如：<code>text/plain</code>, <code>text/xml</code>, <code>application/json</code>.</li>
+<li>charset // 返回编码 UTF-8 等</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>方法调用示例</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">GET https:<span class="comment">//httpbin.org/status/200</span></span><br><span class="line"></span><br><span class="line">&gt; &#123;%</span><br><span class="line">    client.test(<span class="string">"Request executed successfully"</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        client.assert(response.status === <span class="number">200</span>, <span class="string">"Response status is not 200"</span>);</span><br><span class="line">    &#125;);</span><br><span class="line">%&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="演示接口重构-动态更新-Cookie"><a href="#演示接口重构-动态更新-Cookie" class="headerlink" title="演示接口重构 - 动态更新 Cookie"></a>演示接口重构 - 动态更新 Cookie</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">### 登陆 </span><br><span class="line">POST &#123;&#123;host&#125;&#125;/api/login</span><br><span class="line">Content-Type: application/x-www-form-urlencoded</span><br><span class="line"></span><br><span class="line">account=&#123;&#123;account&#125;&#125;&amp;password=&#123;&#123;password&#125;&#125;</span><br><span class="line"></span><br><span class="line">&gt; &#123;% client.global.set(<span class="string">"Set-Cookie"</span>, response.headers.valueOf(<span class="string">"Set-Cookie"</span>)) %&#125;</span><br><span class="line"></span><br><span class="line">### 测试接口 </span><br><span class="line">GET &#123;&#123;host&#125;&#125;/api/security/test</span><br><span class="line">Accept: application/json</span><br><span class="line">Cookie: &#123;&#123;<span class="built_in">Set</span>-Cookie&#125;&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="演示接口重构-测试接口返回"><a href="#演示接口重构-测试接口返回" class="headerlink" title="演示接口重构 - 测试接口返回"></a>演示接口重构 - 测试接口返回</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">### 登陆 </span><br><span class="line">POST &#123;&#123;host&#125;&#125;/api/login</span><br><span class="line">Content-Type: application/x-www-form-urlencoded</span><br><span class="line"></span><br><span class="line">account=&#123;&#123;account&#125;&#125;&amp;password=&#123;&#123;password&#125;&#125;</span><br><span class="line"></span><br><span class="line">&gt; &#123;% client.global.set(<span class="string">"Set-Cookie"</span>, response.headers.valueOf(<span class="string">"Set-Cookie"</span>)) %&#125;</span><br><span class="line"></span><br><span class="line">### 测试接口 </span><br><span class="line">GET &#123;&#123;host&#125;&#125;/api/security/test</span><br><span class="line">Accept: text/plain</span><br><span class="line">Cookie: &#123;&#123;<span class="built_in">Set</span>-Cookie&#125;&#125;</span><br><span class="line"></span><br><span class="line">&gt; login_demo_4_js_test.js</span><br></pre></td></tr></table></figure>
+<ul>
+<li>login_demo_4_js_test.js</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">client.test(<span class="string">"Request executed successfully"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    client.assert(response.status === <span class="number">200</span>, <span class="string">"Response status is not 200"</span>);</span><br><span class="line">    client.log(<span class="string">"response.body="</span> + response.body);</span><br><span class="line">    client.assert(response.body === <span class="string">'you have been authenticated'</span>, <span class="string">"Response body check fail"</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1g0xnun0pfng30w20i57n3.gif" alt=""></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/MacSettings/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/MacSettings/" itemprop="url">Mac 常用设置</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-17T15:53:53Z">
+                2018-07-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/MacSettings/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="MacSettings/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/MacSettings/" class="leancloud_visitors" data-flag-title="Mac 常用设置">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="fn-设置"><a href="#fn-设置" class="headerlink" title="fn 设置"></a>fn 设置</h4><blockquote>
+<p>勾选 ‘将 F1、F2 等键用作标准功能键’，否则 IDE 中各种快捷键都要加上 fn</p>
+</blockquote>
+<p><img src="https://i.imgur.com/TXVyWsK.jpg" alt=""></p>
+<h4 id="触摸板设置"><a href="#触摸板设置" class="headerlink" title="触摸板设置"></a>触摸板设置</h4><blockquote>
+<p>勾选 ‘轻点来点按’，可以省下不少力气</p>
+</blockquote>
+<p><img src="https://i.imgur.com/SNEx6no.jpg" alt=""></p>
+<h4 id="触发角设置待机"><a href="#触发角设置待机" class="headerlink" title="触发角设置待机"></a>触发角设置待机</h4><blockquote>
+<p>系统偏好配置 -&gt; 桌面与屏幕保护程序 -&gt; 触发角  </p>
+</blockquote>
+<p><img src="https://i.imgur.com/KG6WSr0.jpg" alt=""></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/IdeaPlugins/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/IdeaPlugins/" itemprop="url">IntelliJ IDEA 插件</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-16T20:33:16Z">
+                2018-07-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/IdeaPlugins/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="IdeaPlugins/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/IdeaPlugins/" class="leancloud_visitors" data-flag-title="IntelliJ IDEA 插件">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>记录自己用的 Idea 插件</p>
+</blockquote>
+<ul>
+<li>Maven Helper</li>
+<li>SonarLint</li>
+<li>Alibaba Java Coding Guidelines</li>
+<li>AceJump</li>
+<li>Markdown support</li>
+<li>PlantUML integration</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/MacTools/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/MacTools/" itemprop="url">Mac 工具整理</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-16T20:33:16Z">
+                2018-07-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/MacTools/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="MacTools/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/MacTools/" class="leancloud_visitors" data-flag-title="Mac 工具整理">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>记录自己用的 Mac 软件</p>
+</blockquote>
+<h4 id="终端"><a href="#终端" class="headerlink" title="终端"></a>终端</h4><ul>
+<li><a href="https://brew.sh/" target="_blank" rel="noopener">brew</a></li>
+<li><a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="noopener">zsh</a></li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm2</a></li>
+</ul>
+<h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h4><ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></li>
+<li><a href="https://www.gitkraken.com/" target="_blank" rel="noopener">GitKraken</a></li>
+</ul>
+<h4 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h4><ul>
+<li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener">jetbrains 全家桶</a></li>
+</ul>
+<h4 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h4><ul>
+<li><a href="https://www.google.com/chrome/" target="_blank" rel="noopener">Chrome</a></li>
+</ul>
+<h4 id="密码管理"><a href="#密码管理" class="headerlink" title="密码管理"></a>密码管理</h4><ul>
+<li><a href="https://www.enpass.io/" target="_blank" rel="noopener">Enpass</a></li>
+</ul>
+<h4 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h4><ul>
+<li><a href="https://www.yinxiang.com/" target="_blank" rel="noopener">印象笔记</a></li>
+</ul>
+<h4 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h4><ul>
+<li><a href="https://www.parallels.com/cn/products/desktop/" target="_blank" rel="noopener">Parallels Desktop</a></li>
+</ul>
+<h4 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h4><ul>
+<li><a href="https://itunes.apple.com/cn/app/itranslate-%E7%BF%BB%E8%AF%91-%E7%BF%BB%E8%AD%AF%E5%92%8C%E8%AF%8D%E5%85%B8/id884952790?mt=12" target="_blank" rel="noopener">iTranslate</a></li>
+</ul>
+<h4 id="Finder"><a href="#Finder" class="headerlink" title="Finder"></a>Finder</h4><ul>
+<li><a href="http://zipzapmac.com/go2shell" target="_blank" rel="noopener">Go2Shell</a></li>
+<li><a href="https://itunes.apple.com/cn/app/easy-new-file-free-%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95-%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6/id1163105418?mt=12" target="_blank" rel="noopener">Easy new file</a></li>
+</ul>
+<h4 id="剪切板"><a href="#剪切板" class="headerlink" title="剪切板"></a>剪切板</h4><ul>
+<li><a href="https://itunes.apple.com/cn/app/paste-2/id967805235?mt=12" target="_blank" rel="noopener">Paste 2</a></li>
+</ul>
+<h4 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h4><ul>
+<li><a href="https://toolinbox.net/iPic/" target="_blank" rel="noopener">iPic</a></li>
+</ul>
+<h4 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h4><ul>
+<li><a href="https://zh.xnipapp.com/" target="_blank" rel="noopener">Xnip</a></li>
+<li>QQ 自带截图</li>
+<li>Gif：<a href="https://www.cockos.com/licecap/" target="_blank" rel="noopener">LICEcap</a></li>
+</ul>
+<h4 id="桌面"><a href="#桌面" class="headerlink" title="桌面"></a>桌面</h4><ul>
+<li><a href="http://irvue.tumblr.com/" target="_blank" rel="noopener">Irvue</a></li>
+</ul>
+<h4 id="翻墙"><a href="#翻墙" class="headerlink" title="翻墙"></a>翻墙</h4><ul>
+<li><a href="https://github.com/qiuyuzhou/ShadowsocksX-NG/" target="_blank" rel="noopener">ShadowsocksX-NG</a></li>
+</ul>
+<h4 id="私人云盘"><a href="#私人云盘" class="headerlink" title="私人云盘"></a>私人云盘</h4><ul>
+<li><a href="https://www.seafile.com/en/download/" target="_blank" rel="noopener">SeaFile</a></li>
+</ul>
+<h4 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h4><ul>
+<li><a href="https://www.office.com/" target="_blank" rel="noopener">微软全家桶</a></li>
+<li><a href="https://www.xmind.cn/" target="_blank" rel="noopener">XMind</a></li>
+</ul>
+<h4 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h4><ul>
+<li><a href="https://mediaatelier.com/CheatSheet/" target="_blank" rel="noopener">CheatSheet</a></li>
+<li><a href="https://github.com/keycastr/keycastr" target="_blank" rel="noopener">keycastr</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/Velocity-如何输出-Markdown-标题/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Velocity-如何输出-Markdown-标题/" itemprop="url">Velocity 如何输出 Markdown 标题</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-09T11:17:19Z">
+                2018-07-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/Velocity-如何输出-Markdown-标题/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Velocity-如何输出-Markdown-标题/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/Velocity-如何输出-Markdown-标题/" class="leancloud_visitors" data-flag-title="Velocity 如何输出 Markdown 标题">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>试过了 <a href="https://wizardforcel.gitbooks.io/velocity-doc/content/41.html" target="_blank" rel="noopener">Velocity 各种转义</a> 也没能找到输出 Markdown 标题的方法，于是干脆将标题设置为自定义为字符串了，具体实现如下：</p>
+<h2 id="Java-代码"><a href="#Java-代码" class="headerlink" title="Java 代码"></a>Java 代码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.corning.test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.apache.velocity.VelocityContext;</span><br><span class="line"><span class="keyword">import</span> org.apache.velocity.app.VelocityEngine;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.io.File;</span><br><span class="line"><span class="keyword">import</span> java.io.FileWriter;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">VelocityAnnotationOutput</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line"></span><br><span class="line">        VelocityEngine ve = <span class="keyword">new</span> VelocityEngine();</span><br><span class="line">        ve.init();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span> (FileWriter readmeWriter = <span class="keyword">new</span> FileWriter(<span class="keyword">new</span> File(<span class="string">"demo.txt"</span>))) &#123;</span><br><span class="line">            VelocityContext context = getVelocityContextMD();</span><br><span class="line">            context.put(<span class="string">"msg"</span>, <span class="string">"Hello World!"</span>);</span><br><span class="line">            ve.getTemplate(<span class="string">"src/main/resources/templates/demo.vm"</span>).merge(context, readmeWriter);</span><br><span class="line">            readmeWriter.flush();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> VelocityContext <span class="title">getVelocityContextMD</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        VelocityContext context = <span class="keyword">new</span> VelocityContext();</span><br><span class="line">        context.put(<span class="string">"H1"</span>, <span class="string">"#"</span>);</span><br><span class="line">        context.put(<span class="string">"H2"</span>, <span class="string">"##"</span>);</span><br><span class="line">        context.put(<span class="string">"H3"</span>, <span class="string">"###"</span>);</span><br><span class="line">        context.put(<span class="string">"H4"</span>, <span class="string">"####"</span>);</span><br><span class="line">        context.put(<span class="string">"H5"</span>, <span class="string">"#####"</span>);</span><br><span class="line">        <span class="keyword">return</span> context;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Velocity-模版"><a href="#Velocity-模版" class="headerlink" title="Velocity 模版"></a>Velocity 模版</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$H1 $msg</span><br><span class="line">$H2 $msg</span><br><span class="line">$H3 $msg</span><br><span class="line">$H4 $msg</span><br><span class="line">$H5 $msg</span><br></pre></td></tr></table></figure>
+<h2 id="模版输出结果"><a href="#模版输出结果" class="headerlink" title="模版输出结果"></a>模版输出结果</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># Hello World!</span></span><br><span class="line"><span class="section">## Hello World!</span></span><br><span class="line"><span class="section">### Hello World!</span></span><br><span class="line"><span class="section">#### Hello World!</span></span><br><span class="line"><span class="section">##### Hello World!</span></span><br></pre></td></tr></table></figure>
+<h2 id="求问"><a href="#求问" class="headerlink" title="求问"></a>求问</h2><p>还有没有更优雅的方式？</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/买酒店式公寓注意事项/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/买酒店式公寓注意事项/" itemprop="url">买酒店式公寓注意事项</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-26T16:12:28Z">
+                2018-01-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/买酒店式公寓注意事项/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="买酒店式公寓注意事项/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/买酒店式公寓注意事项/" class="leancloud_visitors" data-flag-title="买酒店式公寓注意事项">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li>酒店式公寓均价是低于住宅房很多的，住宅的价格完全没有参考价值，最好问下附近二手公寓多少钱</li>
+<li>注意产权年限，一般是 40 年，但是开发商拿地后造楼之类的也会耽误时间的，要看交房后实际还有多少年</li>
+<li>注意开发商公司，是否大开发商，有没有造过其他楼盘，有的话最好实地勘察下，或者网上搜索一下舆论</li>
+<li>注意公摊面积，电梯房的公摊面积很大的</li>
+<li>是否期房，现在国家政策一年一个样，交钱办好贷款后，真不一定能拿到房，但你还要还贷款。</li>
+<li>是否精装修，硬装还是软装。一般送的装修质量都很差，要做好准备。</li>
+<li>注意看周边环境，是否墓地之类的，要找本地人问</li>
+<li>周边基础设施有没有规划，地铁，公交之类的。不要信销售说的距离，要自己查资料，自己实地看。</li>
+<li>物业费价格，不同物业差距很大，而且每年都要交的。</li>
+<li>水电费价格，一般是住宅的 2 倍，而且晚上也不便宜</li>
+<li>停车位，停车费怎么算的</li>
+<li>如果准备出租的话，可以路边找中介问下周边的公寓租价</li>
+<li>定金 2 万抵 4 万之类的，这些都不会写到购房发票里面的，如果定金特别多，就要注意了，据说都是直接被销售拿去了。</li>
+<li>买房税，卖房税 要问清楚具体有哪些，比例是多少。算清楚涨幅多少才比得上一分利。</li>
+<li>关于卖房时避税 - 做低房价<ul>
+<li>做低是有成本的，要找关系，也要花钱</li>
+<li>做低后买方要承担更多的首付款，是比较难卖的</li>
+</ul>
+</li>
+<li>关于升值空间<ul>
+<li>合肥房价真心不低，涨幅不会太大</li>
+<li>一定要注意和周边公寓的价格对比，千万别买贵了</li>
+<li>租房赚钱是不现实的</li>
+</ul>
+</li>
+<li>选房<ul>
+<li>注意房子朝向，不要买朝北的</li>
+<li>不要买大户型，很难转手</li>
+<li>有些定金叫买房资格，交了只是有资格参与买房，不是就能买选中的房号的</li>
+</ul>
+</li>
+<li>最后<ul>
+<li>想清楚未来三年五年的计划，有没有别的要用钱的地方，有没有更好的投资方向</li>
+<li>不要头脑发热，定金别急着交</li>
+<li>不要头脑发热，定金别急着交</li>
+<li>不要头脑发热，定金别急着交</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/DesignPattern设计模式-详细/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/DesignPattern设计模式-详细/" itemprop="url">DesignPattern 设计模式 - 总览</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-12T13:39:17Z">
+                2018-01-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/DesignPattern/" itemprop="url" rel="index">
+                    <span itemprop="name">DesignPattern</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/DesignPattern设计模式-详细/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="DesignPattern设计模式-详细/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/DesignPattern设计模式-详细/" class="leancloud_visitors" data-flag-title="DesignPattern 设计模式 - 总览">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>来源：<a href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html" target="_blank" rel="noopener">RUNOOB.COM 设计模式</a></p>
+<hr>
+<h2 id="1-创建型模式"><a href="#1-创建型模式" class="headerlink" title="1 创建型模式"></a>1 创建型模式</h2><p>这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。 </p>
+<h3 id="工厂模式（Factory-Pattern）"><a href="#工厂模式（Factory-Pattern）" class="headerlink" title="工厂模式（Factory Pattern）"></a>工厂模式（Factory Pattern）</h3><p><img src="https://i.imgur.com/jIH7AJR.jpg" alt=""><br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">ShapeFactory shapeFactory = <span class="keyword">new</span> ShapeFactory();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取 Circle 的对象，并调用它的 draw 方法 </span></span><br><span class="line">Shape shape1 = shapeFactory.getShape(<span class="string">"CIRCLE"</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 调用 Circle 的 draw 方法 </span></span><br><span class="line">shape1.draw();</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>反射机制可以解决每次增加一个产品时，都需要增加一个对象实现工厂的缺点</p>
+</blockquote>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/DesignPattern设计模式-详细/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/Java Lambda/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Java Lambda/" itemprop="url">Java Lambda</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-05T15:43:34Z">
+                2018-01-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/Lambda/" itemprop="url" rel="index">
+                    <span itemprop="name">Lambda</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/Java Lambda/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Java Lambda/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/Java Lambda/" class="leancloud_visitors" data-flag-title="Java Lambda">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Lambda-示例"><a href="#Lambda-示例" class="headerlink" title="Lambda 示例"></a>Lambda 示例</h2><p>源码来源: <a href="https://github.com/iluwatar/java-design-patterns/tree/master/factory-kit" target="_blank" rel="noopener">Github java-design-patterns/factory-kit</a></p>
+<h3 id="基础类"><a href="#基础类" class="headerlink" title="基础类"></a>基础类</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Weapon</span> </span>&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">enum</span> WeaponType &#123;</span><br><span class="line">  SWORD, AXE, BOW, SPEAR</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Sword</span> <span class="keyword">implements</span> <span class="title">Weapon</span> </span>&#123;</span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"Sword"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Axe</span> <span class="keyword">implements</span> <span class="title">Weapon</span> </span>&#123;</span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"Axe"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Bow Spear 略 </span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.function.Supplier;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Builder</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(WeaponType name, Supplier&lt;Weapon&gt; supplier)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Consumer;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Supplier;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">WeaponFactory</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="function">Weapon <span class="title">create</span><span class="params">(WeaponType name)</span></span>;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">static</span> WeaponFactory <span class="title">factory</span><span class="params">(Consumer&lt;Builder&gt; consumer)</span> </span>&#123;</span><br><span class="line">    Map&lt;WeaponType, Supplier&lt;Weapon&gt;&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">    consumer.accept(map::put);</span><br><span class="line">    <span class="keyword">return</span> name -&gt; map.get(name).get();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="非-Lambda-方式实现-WeaponFactory"><a href="#非-Lambda-方式实现-WeaponFactory" class="headerlink" title="非 Lambda 方式实现 WeaponFactory"></a>非 Lambda 方式实现 WeaponFactory</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> WeaponFactory <span class="title">factory2</span><span class="params">(Consumer&lt;Builder&gt; consumer)</span> </span>&#123;</span><br><span class="line">    Map&lt;WeaponType, Supplier&lt;Weapon&gt;&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// accept 实现方式 1</span></span><br><span class="line">    <span class="comment">// consumer.accept(((name, supplier) -&gt; map.put(name, supplier)));</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// accept 实现方式 2</span></span><br><span class="line">    consumer.accept(<span class="keyword">new</span> Builder() &#123;</span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(WeaponType name, Supplier&lt;Weapon&gt; supplier)</span> </span>&#123;</span><br><span class="line">            map.put(name, supplier);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="comment">// create 非 lambda 实现方式 </span></span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> WeaponFactory() &#123;</span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> Weapon <span class="title">create</span><span class="params">(WeaponType name)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> map.get(name).get();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Lambda-方式初始化-WeaponFactory"><a href="#Lambda-方式初始化-WeaponFactory" class="headerlink" title="Lambda 方式初始化 WeaponFactory"></a>Lambda 方式初始化 <code>WeaponFactory</code></h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> WeaponFactory <span class="title">getWeaponFactory_lam</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> WeaponFactory.factory(builder -&gt; &#123;</span><br><span class="line">        builder.add(WeaponType.SWORD, Sword::<span class="keyword">new</span>);</span><br><span class="line">        builder.add(WeaponType.AXE, Axe::<span class="keyword">new</span>);</span><br><span class="line">        builder.add(WeaponType.SPEAR, Spear::<span class="keyword">new</span>);</span><br><span class="line">        builder.add(WeaponType.BOW, Bow::<span class="keyword">new</span>);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="非-Lambda-方式初始化-WeaponFactory"><a href="#非-Lambda-方式初始化-WeaponFactory" class="headerlink" title="非 Lambda 方式初始化  WeaponFactory"></a>非 Lambda 方式初始化  <code>WeaponFactory</code></h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> WeaponFactory <span class="title">getWeaponFactory</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> WeaponFactory.factory(<span class="keyword">new</span> Consumer&lt;Builder&gt;() &#123;</span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">accept</span><span class="params">(Builder builder)</span> </span>&#123;</span><br><span class="line">            builder.add(WeaponType.SWORD, <span class="keyword">new</span> Supplier&lt;Weapon&gt;() &#123;</span><br><span class="line">                <span class="meta">@Override</span></span><br><span class="line">                <span class="function"><span class="keyword">public</span> Weapon <span class="title">get</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">new</span> Sword();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            builder.add(WeaponType.AXE, () -&gt; <span class="keyword">new</span> Axe());</span><br><span class="line">            builder.add(WeaponType.SPEAR, Spear::<span class="keyword">new</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="相关资料"><a href="#相关资料" class="headerlink" title="相关资料"></a>相关资料</h2><ul>
+<li><a href="http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/" target="_blank" rel="noopener">深入理解 Java 8 Lambda</a></li>
+<li><a href="https://www.zhihu.com/question/28565691" target="_blank" rel="noopener">知乎 java 双冒号是什么操作符?</a></li>
+<li><a href="http://cr.openjdk.java.net/~briangoetz/lambda/lambda-state-final.html" target="_blank" rel="noopener">State of the Lambda</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/十大经典排序算法/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/十大经典排序算法/" itemprop="url">十大经典排序算法</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-05T10:26:40Z">
+                2018-01-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/十大经典排序算法/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="十大经典排序算法/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/十大经典排序算法/" class="leancloud_visitors" data-flag-title="十大经典排序算法">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><strong> 来源 </strong>：<a href="https://github.com/hustcc/JS-Sorting-Algorithm" target="_blank" rel="noopener">Github JS-Sorting-Algorithm</a></p>
+<hr>
+<p>排序算法是《数据结构与算法》中最基本的算法之一。<br>排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。常见的内部排序算法有：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等。用一张图概括：<br><img src="http://corningsun.qiniudn.com/blog/2018-07-09-sort.png-o" alt=""></p>
+<h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><p>冒泡排序（Bubble Sort）也是一种简单直观的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢 “浮” 到数列的顶端。</p>
+<p><strong> 算法步骤 </strong></p>
+<ol>
+<li>比较相邻的元素。如果第一个比第二个大，就交换他们两个。</li>
+<li>对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对。这步做完后，最后的元素会是最大的数。</li>
+<li>针对所有的元素重复以上的步骤，除了最后一个。</li>
+<li>持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。<br><img src="http://corningsun.qiniudn.com/blog/2018-07-09-bubbleSort.gif-o" alt="">
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/十大经典排序算法/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </li></ol></div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/一张图看懂UML类图/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/一张图看懂UML类图/" itemprop="url">一张图看懂 UML 类图</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-20T17:16:16Z">
+                2017-11-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/UML/" itemprop="url" rel="index">
+                    <span itemprop="name">UML</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/一张图看懂UML类图/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="一张图看懂UML类图/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/一张图看懂UML类图/" class="leancloud_visitors" data-flag-title="一张图看懂 UML 类图">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="http://corningsun.qiniudn.com/blog/2017-11-20-091405.jpg-o" alt=""></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/ning.jpg" alt="Corning Sun">
+            
+              <p class="site-author-name" itemprop="name">Corning Sun</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">36</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">27</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">30</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/corningsun" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:corningsun@163.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2015 &mdash; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Corning Sun</span>
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://corningsun.disqus.com/count.js" async></script>
+    
+
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("03eb3C4QVHu3iqcCDDCVf4ho-gzGzoHsz", "vGPnc2OrhhEyB60q2PSWVDAq");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
