@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://corningsun.com/"/>
-  <updated>2019-03-12T09:30:49.597Z</updated>
+  <updated>2020-11-26T09:29:26.857Z</updated>
   <id>https://corningsun.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>阿里云 OSS 图床 测速</title>
+    <link href="https://corningsun.com/AliOssTest/"/>
+    <id>https://corningsun.com/AliOssTest/</id>
+    <published>2020-11-26T17:25:34.000Z</published>
+    <updated>2020-11-26T09:29:26.857Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://corningsun.oss-cn-shanghai.aliyuncs.com/2020-11-26-%E7%8B%AE%E5%AD%90.jpg?x-oss-process=style/cs1" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://corningsun.oss-cn-shanghai.aliyuncs.com/2020-11-26-%E7%8B%AE%E5%AD%90.jpg?x-oss-process=style/cs1&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="OSS" scheme="https://corningsun.com/categories/OSS/"/>
+    
+    
+      <category term="OSS" scheme="https://corningsun.com/tags/OSS/"/>
+    
+  </entry>
   
   <entry>
     <title>IntelliJIDEA 插件 HTTPClient</title>
@@ -539,24 +565,6 @@
       <category term="杂文" scheme="https://corningsun.com/tags/%E6%9D%82%E6%96%87/"/>
     
       <category term="狗粮" scheme="https://corningsun.com/tags/%E7%8B%97%E7%B2%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>iPhone 手机证书安装说明</title>
-    <link href="https://corningsun.com/iphoneCertsSetting/"/>
-    <id>https://corningsun.com/iphoneCertsSetting/</id>
-    <published>2017-01-18T16:41:15.000Z</published>
-    <updated>2017-01-18T09:13:19.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文描述了，如何在 iPhone 上安装个人证书，以及一些注意事项。</p><a id="more"></a><h2 id="1-启用手机上的-“邮件”-功能，并添加邮箱账户"><a href="#1-启用手机上的-“邮件”-功能，并添加邮箱账户" class="headerlink" title="1. 启用手机上的 “邮件” 功能，并添加邮箱账户"></a>1. 启用手机上的 “邮件” 功能，并添加邮箱账户</h2><p><img src="http://corningsun.qiniudn.com/blog/2017-01-18-085321.jpg-o" alt=""></p><h2 id="2-将证书以附件方式发送到手机"><a href="#2-将证书以附件方式发送到手机" class="headerlink" title="2. 将证书以附件方式发送到手机"></a>2. 将证书以附件方式发送到手机</h2><p><img src="http://corningsun.qiniudn.com/blog/2017-01-18-085508.jpg-o" alt=""></p><h2 id="3-在手机上安装证书"><a href="#3-在手机上安装证书" class="headerlink" title="3. 在手机上安装证书"></a>3. 在手机上安装证书</h2><p>直接点击附件，即可进入安装界面<br>先安装证书链，再安装个人证书，个人证书注意要为 <code>pfx</code> 格式的<br><img src="http://corningsun.qiniudn.com/blog/2017-01-18-085937.jpg-o" alt=""><br>证书安装结果<br><img src="http://corningsun.qiniudn.com/blog/2017-01-18-090756.jpg-o" alt=""></p><h2 id="4-使用浏览器访问对应的网站"><a href="#4-使用浏览器访问对应的网站" class="headerlink" title="4. 使用浏览器访问对应的网站"></a>4. 使用浏览器访问对应的网站</h2><p><strong>Safari</strong> 是可以直接访问的<br><strong>Firefox</strong> 和 <strong>Chrome</strong> 还需要配置其他内容<br><img src="http://corningsun.qiniudn.com/blog/2017-01-18-090001.jpg-o" alt=""></p><h2 id="5-注意事项"><a href="#5-注意事项" class="headerlink" title="5. 注意事项"></a>5. 注意事项</h2><h3 id="添加邮箱账户失败"><a href="#添加邮箱账户失败" class="headerlink" title="添加邮箱账户失败"></a>添加邮箱账户失败</h3><ul><li>必须启用 <code>SMTP、POP3</code> 等协议</li><li>邮箱密码不是登录密码，而是启用 <code>SMTP、POP3</code> 等协议时设置的密码</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文描述了，如何在 iPhone 上安装个人证书，以及一些注意事项。&lt;/p&gt;
-    
-    </summary>
-    
     
   </entry>
   
