@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://corningsun.com/about/index.html</loc>
+    
+    <lastmod>2020-11-26T09:15:51.474Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://corningsun.com/IntelliJIDEA%E6%8F%92%E4%BB%B6HTTPClient/</loc>
     
     <lastmod>2019-03-12T09:30:49.597Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://corningsun.com/IdeaPlugins/</loc>
     
     <lastmod>2018-07-18T23:10:58.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://corningsun.com/about/index.html</loc>
-    
-    <lastmod>2018-07-16T14:02:56.152Z</lastmod>
     
   </url>
   
