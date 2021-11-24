@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://corningsun.com/"/>
-  <updated>2020-11-26T09:32:25.703Z</updated>
+  <updated>2019-03-12T09:30:49.597Z</updated>
   <id>https://corningsun.com/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>阿里云 OSS 图床 测试</title>
-    <link href="https://corningsun.com/AliOssTest/"/>
-    <id>https://corningsun.com/AliOssTest/</id>
-    <published>2020-11-26T17:25:34.000Z</published>
-    <updated>2020-11-26T09:32:25.703Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://corningsun.oss-cn-shanghai.aliyuncs.com/2020-11-26-%E7%8B%AE%E5%AD%90.jpg?x-oss-process=style/cs1" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;https://corningsun.oss-cn-shanghai.aliyuncs.com/2020-11-26-%E7%8B%AE%E5%AD%90.jpg?x-oss-process=style/cs1&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="OSS" scheme="https://corningsun.com/categories/OSS/"/>
-    
-    
-      <category term="OSS" scheme="https://corningsun.com/tags/OSS/"/>
-    
-  </entry>
   
   <entry>
     <title>IntelliJIDEA 插件 HTTPClient</title>
@@ -131,9 +105,9 @@
     <link href="https://corningsun.com/MacTools/"/>
     <id>https://corningsun.com/MacTools/</id>
     <published>2018-07-16T20:33:16.000Z</published>
-    <updated>2020-12-10T12:31:00.000Z</updated>
+    <updated>2021-11-24T13:58:00.000Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>记录自己用的 Mac 软件</p></blockquote><h4 id="终端"><a href="#终端" class="headerlink" title="终端"></a>终端</h4><ul><li><a href="https://brew.sh/" target="_blank" rel="noopener">brew</a></li><li><a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="noopener">zsh</a></li><li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm2</a></li></ul><h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h4><ul><li><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></li><li><a href="https://www.gitkraken.com/" target="_blank" rel="noopener">GitKraken</a></li><li><a href="https://git-fork.com/" target="_blank" rel="noopener">Fork</a></li></ul><h4 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h4><ul><li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener">jetbrains 全家桶</a></li></ul><h4 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h4><ul><li><a href="https://www.google.com/chrome/" target="_blank" rel="noopener">Chrome</a></li></ul><h4 id="密码管理"><a href="#密码管理" class="headerlink" title="密码管理"></a>密码管理</h4><ul><li><a href="https://www.enpass.io/" target="_blank" rel="noopener">Enpass</a></li></ul><h4 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h4><ul><li><a href="https://www.yinxiang.com/" target="_blank" rel="noopener">印象笔记</a></li></ul><h4 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h4><ul><li><a href="https://www.parallels.com/cn/products/desktop/" target="_blank" rel="noopener">Parallels Desktop</a></li></ul><h4 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h4><ul><li><a href="https://itunes.apple.com/cn/app/itranslate-%E7%BF%BB%E8%AF%91-%E7%BF%BB%E8%AD%AF%E5%92%8C%E8%AF%8D%E5%85%B8/id884952790?mt=12" target="_blank" rel="noopener">iTranslate</a></li></ul><h4 id="Finder"><a href="#Finder" class="headerlink" title="Finder"></a>Finder</h4><ul><li><a href="http://zipzapmac.com/go2shell" target="_blank" rel="noopener">Go2Shell</a></li><li><a href="https://itunes.apple.com/cn/app/easy-new-file-free-%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95-%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6/id1163105418?mt=12" target="_blank" rel="noopener">Easy new file</a></li></ul><h4 id="剪切板"><a href="#剪切板" class="headerlink" title="剪切板"></a>剪切板</h4><ul><li><a href="https://itunes.apple.com/cn/app/paste-2/id967805235?mt=12" target="_blank" rel="noopener">Paste 2</a></li></ul><h4 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h4><ul><li><a href="https://toolinbox.net/iPic/" target="_blank" rel="noopener">iPic</a></li></ul><h4 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h4><ul><li><a href="https://zh.xnipapp.com/" target="_blank" rel="noopener">Xnip</a></li><li>QQ 自带截图</li><li>Gif：<a href="https://www.cockos.com/licecap/" target="_blank" rel="noopener">LICEcap</a></li></ul><h4 id="桌面"><a href="#桌面" class="headerlink" title="桌面"></a>桌面</h4><ul><li><a href="http://irvue.tumblr.com/" target="_blank" rel="noopener">Irvue</a></li></ul><h4 id="翻墙"><a href="#翻墙" class="headerlink" title="翻墙"></a>翻墙</h4><ul><li><a href="https://github.com/yichengchen/clashX" target="_blank" rel="noopener">ClashX</a></li></ul><h4 id="私人云盘"><a href="#私人云盘" class="headerlink" title="私人云盘"></a>私人云盘</h4><ul><li><a href="https://www.seafile.com/en/download/" target="_blank" rel="noopener">SeaFile</a></li></ul><h4 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h4><ul><li><a href="https://www.office.com/" target="_blank" rel="noopener">微软全家桶</a></li><li><a href="https://apps.apple.com/cn/app/mindnode-mind-map/id1289197285?mt=12" target="_blank" rel="noopener">MindNode</a></li><li><a href="https://www.xmind.cn/" target="_blank" rel="noopener">XMind</a></li><li><a href="https://staruml.io/" target="_blank" rel="noopener">starUML</a></li><li><a href="http://plantuml.com/" target="_blank" rel="noopener">plantuml</a></li><li><a href="https://typora.io/" target="_blank" rel="noopener">typora</a></li></ul><h4 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h4><ul><li><a href="https://mediaatelier.com/CheatSheet/" target="_blank" rel="noopener">CheatSheet</a></li><li><a href="https://github.com/keycastr/keycastr" target="_blank" rel="noopener">keycastr</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>记录自己用的 Mac 软件</p></blockquote><h4 id="终端"><a href="#终端" class="headerlink" title="终端"></a>终端</h4><ul><li><a href="https://brew.sh/" target="_blank" rel="noopener">brew</a></li><li><p><a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="noopener">zsh</a></p><ul><li><a href="https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md" target="_blank" rel="noopener">zsh-syntax-highlighting</a></li><li><a href="https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md" target="_blank" rel="noopener">zsh-autosuggestions</a></li></ul></li><li><p><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm2</a></p><ul><li><a href="https://github.com/snow-sprite/rzsz" target="_blank" rel="noopener">iTerm2-rzsz</a></li></ul></li></ul><h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h4><ul><li><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></li><li><a href="https://git-fork.com/" target="_blank" rel="noopener">Fork</a></li></ul><h4 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h4><ul><li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener">jetbrains 全家桶</a></li></ul><h4 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h4><ul><li><a href="https://www.google.com/chrome/" target="_blank" rel="noopener">Chrome</a></li></ul><h4 id="密码管理"><a href="#密码管理" class="headerlink" title="密码管理"></a>密码管理</h4><ul><li><a href="https://www.enpass.io/" target="_blank" rel="noopener">Enpass</a></li></ul><h4 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h4><ul><li>Mac 备忘录</li><li><a href="https://www.yinxiang.com/" target="_blank" rel="noopener">印象笔记</a></li></ul><h4 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h4><ul><li><a href="https://www.parallels.com/cn/products/desktop/" target="_blank" rel="noopener">Parallels Desktop</a></li></ul><h4 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h4><ul><li><a href="https://itunes.apple.com/cn/app/itranslate-%E7%BF%BB%E8%AF%91-%E7%BF%BB%E8%AD%AF%E5%92%8C%E8%AF%8D%E5%85%B8/id884952790?mt=12" target="_blank" rel="noopener">iTranslate</a></li></ul><h4 id="Finder"><a href="#Finder" class="headerlink" title="Finder"></a>Finder</h4><ul><li><a href="http://zipzapmac.com/go2shell" target="_blank" rel="noopener">Go2Shell</a></li><li><a href="https://itunes.apple.com/cn/app/easy-new-file-free-%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95-%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6/id1163105418?mt=12" target="_blank" rel="noopener">Easy new file</a></li></ul><h4 id="剪切板"><a href="#剪切板" class="headerlink" title="剪切板"></a>剪切板</h4><ul><li><a href="https://itunes.apple.com/cn/app/paste-2/id967805235?mt=12" target="_blank" rel="noopener">Paste 2</a></li></ul><h4 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h4><ul><li><a href="https://toolinbox.net/iPic/" target="_blank" rel="noopener">iPic</a></li><li><a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener">PicGo</a></li></ul><h4 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h4><ul><li><a href="https://zh.xnipapp.com/" target="_blank" rel="noopener">Xnip</a></li><li>QQ 自带截图</li><li>Gif：<a href="https://www.cockos.com/licecap/" target="_blank" rel="noopener">LICEcap</a></li></ul><h4 id="桌面"><a href="#桌面" class="headerlink" title="桌面"></a>桌面</h4><ul><li><a href="http://irvue.tumblr.com/" target="_blank" rel="noopener">Irvue</a></li></ul><h4 id="翻墙"><a href="#翻墙" class="headerlink" title="翻墙"></a>翻墙</h4><ul><li><a href="https://github.com/yichengchen/clashX" target="_blank" rel="noopener">ClashX</a></li></ul><h4 id="私人云盘"><a href="#私人云盘" class="headerlink" title="私人云盘"></a>私人云盘</h4><ul><li><a href="https://www.seafile.com/en/download/" target="_blank" rel="noopener">SeaFile</a></li></ul><h4 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h4><ul><li><a href="https://www.office.com/" target="_blank" rel="noopener">微软全家桶</a></li><li><a href="https://apps.apple.com/cn/app/mindnode-mind-map/id1289197285?mt=12" target="_blank" rel="noopener">MindNode</a></li><li><a href="https://www.xmind.cn/" target="_blank" rel="noopener">XMind</a></li><li><a href="https://staruml.io/" target="_blank" rel="noopener">starUML</a></li><li><a href="http://plantuml.com/" target="_blank" rel="noopener">plantuml</a></li><li><a href="https://typora.io/" target="_blank" rel="noopener">typora</a></li></ul><h4 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h4><ul><li><a href="https://mediaatelier.com/CheatSheet/" target="_blank" rel="noopener">CheatSheet</a></li><li><a href="https://github.com/keycastr/keycastr" target="_blank" rel="noopener">keycastr</a></li></ul>]]></content>
     
     <summary type="html">
     
@@ -565,6 +539,24 @@
       <category term="杂文" scheme="https://corningsun.com/tags/%E6%9D%82%E6%96%87/"/>
     
       <category term="狗粮" scheme="https://corningsun.com/tags/%E7%8B%97%E7%B2%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iPhone 手机证书安装说明</title>
+    <link href="https://corningsun.com/iphoneCertsSetting/"/>
+    <id>https://corningsun.com/iphoneCertsSetting/</id>
+    <published>2017-01-18T16:41:15.000Z</published>
+    <updated>2017-01-18T09:13:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文描述了，如何在 iPhone 上安装个人证书，以及一些注意事项。</p><a id="more"></a><h2 id="1-启用手机上的-“邮件”-功能，并添加邮箱账户"><a href="#1-启用手机上的-“邮件”-功能，并添加邮箱账户" class="headerlink" title="1. 启用手机上的 “邮件” 功能，并添加邮箱账户"></a>1. 启用手机上的 “邮件” 功能，并添加邮箱账户</h2><p><img src="http://corningsun.qiniudn.com/blog/2017-01-18-085321.jpg-o" alt=""></p><h2 id="2-将证书以附件方式发送到手机"><a href="#2-将证书以附件方式发送到手机" class="headerlink" title="2. 将证书以附件方式发送到手机"></a>2. 将证书以附件方式发送到手机</h2><p><img src="http://corningsun.qiniudn.com/blog/2017-01-18-085508.jpg-o" alt=""></p><h2 id="3-在手机上安装证书"><a href="#3-在手机上安装证书" class="headerlink" title="3. 在手机上安装证书"></a>3. 在手机上安装证书</h2><p>直接点击附件，即可进入安装界面<br>先安装证书链，再安装个人证书，个人证书注意要为 <code>pfx</code> 格式的<br><img src="http://corningsun.qiniudn.com/blog/2017-01-18-085937.jpg-o" alt=""><br>证书安装结果<br><img src="http://corningsun.qiniudn.com/blog/2017-01-18-090756.jpg-o" alt=""></p><h2 id="4-使用浏览器访问对应的网站"><a href="#4-使用浏览器访问对应的网站" class="headerlink" title="4. 使用浏览器访问对应的网站"></a>4. 使用浏览器访问对应的网站</h2><p><strong>Safari</strong> 是可以直接访问的<br><strong>Firefox</strong> 和 <strong>Chrome</strong> 还需要配置其他内容<br><img src="http://corningsun.qiniudn.com/blog/2017-01-18-090001.jpg-o" alt=""></p><h2 id="5-注意事项"><a href="#5-注意事项" class="headerlink" title="5. 注意事项"></a>5. 注意事项</h2><h3 id="添加邮箱账户失败"><a href="#添加邮箱账户失败" class="headerlink" title="添加邮箱账户失败"></a>添加邮箱账户失败</h3><ul><li>必须启用 <code>SMTP、POP3</code> 等协议</li><li>邮箱密码不是登录密码，而是启用 <code>SMTP、POP3</code> 等协议时设置的密码</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文描述了，如何在 iPhone 上安装个人证书，以及一些注意事项。&lt;/p&gt;
+    
+    </summary>
+    
     
   </entry>
   
