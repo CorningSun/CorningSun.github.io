@@ -20,7 +20,7 @@
   <entry>
     <title><![CDATA[IntelliJ IDEA 插件]]></title>
     <url>%2FIdeaPlugins%2F</url>
-    <content type="text"><![CDATA[记录自己用的 Idea 插件 Maven Helper SonarLint Alibaba Java Coding Guidelines AceJump Markdown support PlantUML integration]]></content>
+    <content type="text"><![CDATA[记录自己用的 Idea 插件 Maven Helper SonarLint Alibaba Java Coding Guidelines AceJump Markdown support PlantUML integration RestfulTool Rainbow Brackets GsonFormatPlus]]></content>
       <tags>
         <tag>Tools</tag>
         <tag>Java</tag>

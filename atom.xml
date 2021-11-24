@@ -73,9 +73,9 @@
     <link href="https://corningsun.com/IdeaPlugins/"/>
     <id>https://corningsun.com/IdeaPlugins/</id>
     <published>2018-07-16T20:33:16.000Z</published>
-    <updated>2018-07-18T23:10:58.280Z</updated>
+    <updated>2021-11-24T06:10:15.844Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>记录自己用的 Idea 插件</p></blockquote><ul><li>Maven Helper</li><li>SonarLint</li><li>Alibaba Java Coding Guidelines</li><li>AceJump</li><li>Markdown support</li><li>PlantUML integration</li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>记录自己用的 Idea 插件</p></blockquote><ul><li>Maven Helper</li><li>SonarLint</li><li>Alibaba Java Coding Guidelines</li><li>AceJump</li><li>Markdown support</li><li>PlantUML integration</li><li><a href="https://github.com/ZhangYuanSheng1217/RestfulTool" target="_blank" rel="noopener">RestfulTool</a></li><li><a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets" target="_blank" rel="noopener">Rainbow Brackets</a></li><li><a href="https://github.com/mars-men/GsonFormatPlus" target="_blank" rel="noopener">GsonFormatPlus</a></li></ul>]]></content>
     
     <summary type="html">
     
