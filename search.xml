@@ -28,7 +28,7 @@
   <entry>
     <title><![CDATA[Mac 常用设置]]></title>
     <url>%2FMacSettings%2F</url>
-    <content type="text"><![CDATA[fn 设置 勾选 ‘将 F1、F2 等键用作标准功能键’，否则 IDE 中各种快捷键都要加上 fn 触摸板设置 勾选 ‘轻点来点按’，可以省下不少力气 触发角设置待机 系统偏好配置 -&gt; 桌面与屏幕保护程序 -&gt; 触发角]]></content>
+    <content type="text"><![CDATA[fn 设置 勾选 ‘将 F1、F2 等键用作标准功能键’，否则 IDE 中各种快捷键都要加上 fn MacOs Ventura 版本 可以直接搜索 ‘功能键’ 查找 触摸板设置 勾选 ‘轻点来点按’，可以省下不少力气 触发角设置待机 系统偏好配置 -&gt; 桌面与屏幕保护程序 -&gt; 触发角]]></content>
       <tags>
         <tag>Mac</tag>
       </tags>
