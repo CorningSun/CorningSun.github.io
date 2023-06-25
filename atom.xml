@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://corningsun.com/"/>
-  <updated>2022-10-18T07:30:37.000Z</updated>
+  <updated>2023-06-25T09:11:17.710Z</updated>
   <id>https://corningsun.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI 生成图片</title>
+    <link href="https://corningsun.com/AiImageDesigner/"/>
+    <id>https://corningsun.com/AiImageDesigner/</id>
+    <published>2023-06-25T17:05:48.000Z</published>
+    <updated>2023-06-25T09:11:17.710Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>欢迎转载，原文链接：<a href="https://corningsun.com/">https://corningsun.com/</a>AI 生成图片</p></blockquote><p>## </p><p>网站：<a href="https://designer.microsoft.com/" target="_blank" rel="noopener">https://designer.microsoft.com/</a></p><p>费用：免费</p><p>输入：The auction robot, implemented with a browser plugin, holds a hammer in its hand</p><p>结果：</p><p><img src="https://cdn.jsdelivr.net/gh/corningsun/corningsun.github.io@blog_img/2023/auctionBobot.jpeg" alt="auction robot"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;欢迎转载，原文链接：&lt;a href=&quot;https://corningsun.com/&quot;&gt;https://corningsun.com/&lt;/a&gt;AI 生成图片&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;## &lt;/p&gt;
+&lt;p&gt;网站：&lt;a href=&quot;h
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>恋爱套路</title>
@@ -143,9 +168,9 @@
     </summary>
     
     
-      <category term="Java" scheme="https://corningsun.com/tags/Java/"/>
-    
       <category term="Tools" scheme="https://corningsun.com/tags/Tools/"/>
+    
+      <category term="Java" scheme="https://corningsun.com/tags/Java/"/>
     
       <category term="Idea" scheme="https://corningsun.com/tags/Idea/"/>
     
@@ -536,33 +561,6 @@
       <category term="Python" scheme="https://corningsun.com/tags/Python/"/>
     
       <category term="itChat" scheme="https://corningsun.com/tags/itChat/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SonarQube 过滤器使用说明</title>
-    <link href="https://corningsun.com/SonarQubeFilters/"/>
-    <id>https://corningsun.com/SonarQubeFilters/</id>
-    <published>2017-02-28T14:15:37.000Z</published>
-    <updated>2017-02-28T14:15:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h1><p>使用 SonarQube 管理项目，当项目太多时，管理会非常困难。需要对项目进行自定义分组管理。</p><p><img src="http://corningsun.qiniudn.com/blog/2017-02-28-061949.jpg-o" alt></p><a id="more"></a><h2 id="一、管理员添加过滤器"><a href="#一、管理员添加过滤器" class="headerlink" title="一、管理员添加过滤器"></a>一、管理员添加过滤器</h2><h3 id="1-新建搜索"><a href="#1-新建搜索" class="headerlink" title="1. 新建搜索"></a>1. 新建搜索</h3><h3 id="2-设置条件"><a href="#2-设置条件" class="headerlink" title="2. 设置条件"></a>2. 设置条件</h3><p><img src="http://corningsun.qiniudn.com/blog/2017-02-28-063149.jpg-o" alt></p><h3 id="3-另存为，并设置为共享给所有用户"><a href="#3-另存为，并设置为共享给所有用户" class="headerlink" title="3. 另存为，并设置为共享给所有用户"></a>3. 另存为，并设置为共享给所有用户</h3><p><img src="http://corningsun.qiniudn.com/blog/2017-02-28-063637.jpg-o" alt></p><h2 id="二、普通用户从所有过滤器中选择自己需要的"><a href="#二、普通用户从所有过滤器中选择自己需要的" class="headerlink" title="二、普通用户从所有过滤器中选择自己需要的"></a>二、普通用户从所有过滤器中选择自己需要的</h2><p><img src="http://corningsun.qiniudn.com/blog/2017-02-28-063926.jpg-o" alt></p><h2 id="三、过滤器使用效果图"><a href="#三、过滤器使用效果图" class="headerlink" title="三、过滤器使用效果图"></a>三、过滤器使用效果图</h2><p><img src="http://corningsun.qiniudn.com/blog/2017-02-28-064046.jpg-o" alt></p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="1-普通用户也可以自定义过滤器，但无法共享给其他用户"><a href="#1-普通用户也可以自定义过滤器，但无法共享给其他用户" class="headerlink" title="1. 普通用户也可以自定义过滤器，但无法共享给其他用户"></a>1. 普通用户也可以自定义过滤器，但无法共享给其他用户</h3><h3 id="2-过滤器除了可以过滤项目，还可以自定义显示的列和顺序"><a href="#2-过滤器除了可以过滤项目，还可以自定义显示的列和顺序" class="headerlink" title="2. 过滤器除了可以过滤项目，还可以自定义显示的列和顺序"></a>2. 过滤器除了可以过滤项目，还可以自定义显示的列和顺序</h3><p><img src="http://corningsun.qiniudn.com/blog/2017-02-28-064345.jpg-o" alt></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;目的&quot;&gt;&lt;a href=&quot;#目的&quot; class=&quot;headerlink&quot; title=&quot;目的&quot;&gt;&lt;/a&gt;目的&lt;/h1&gt;&lt;p&gt;使用 SonarQube 管理项目，当项目太多时，管理会非常困难。需要对项目进行自定义分组管理。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://corningsun.qiniudn.com/blog/2017-02-28-061949.jpg-o&quot; alt&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Tools" scheme="https://corningsun.com/categories/Tools/"/>
-    
-      <category term="SonarQube" scheme="https://corningsun.com/categories/Tools/SonarQube/"/>
-    
-    
-      <category term="Tools" scheme="https://corningsun.com/tags/Tools/"/>
-    
-      <category term="SonarQube" scheme="https://corningsun.com/tags/SonarQube/"/>
     
   </entry>
   

@@ -308,6 +308,193 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://corningsun.com/Java Lambda/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Corning Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/ning.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Corning Sun's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Java Lambda/" itemprop="url">Java Lambda</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-05T15:43:34Z">
+                2018-01-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/Lambda/" itemprop="url" rel="index">
+                    <span itemprop="name">Lambda</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/Java Lambda/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Java Lambda/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/Java Lambda/" class="leancloud_visitors" data-flag-title="Java Lambda">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Lambda-示例"><a href="#Lambda-示例" class="headerlink" title="Lambda 示例"></a>Lambda 示例</h2><p>源码来源: <a href="https://github.com/iluwatar/java-design-patterns/tree/master/factory-kit" target="_blank" rel="noopener">Github java-design-patterns/factory-kit</a></p>
+<h3 id="基础类"><a href="#基础类" class="headerlink" title="基础类"></a>基础类</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Weapon</span> </span>&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">enum</span> WeaponType &#123;</span><br><span class="line">  SWORD, AXE, BOW, SPEAR</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Sword</span> <span class="keyword">implements</span> <span class="title">Weapon</span> </span>&#123;</span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"Sword"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Axe</span> <span class="keyword">implements</span> <span class="title">Weapon</span> </span>&#123;</span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"Axe"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Bow Spear 略 </span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.function.Supplier;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Builder</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(WeaponType name, Supplier&lt;Weapon&gt; supplier)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Consumer;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Supplier;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">WeaponFactory</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="function">Weapon <span class="title">create</span><span class="params">(WeaponType name)</span></span>;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">static</span> WeaponFactory <span class="title">factory</span><span class="params">(Consumer&lt;Builder&gt; consumer)</span> </span>&#123;</span><br><span class="line">    Map&lt;WeaponType, Supplier&lt;Weapon&gt;&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">    consumer.accept(map::put);</span><br><span class="line">    <span class="keyword">return</span> name -&gt; map.get(name).get();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="非-Lambda-方式实现-WeaponFactory"><a href="#非-Lambda-方式实现-WeaponFactory" class="headerlink" title="非 Lambda 方式实现 WeaponFactory"></a>非 Lambda 方式实现 WeaponFactory</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> WeaponFactory <span class="title">factory2</span><span class="params">(Consumer&lt;Builder&gt; consumer)</span> </span>&#123;</span><br><span class="line">    Map&lt;WeaponType, Supplier&lt;Weapon&gt;&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// accept 实现方式 1</span></span><br><span class="line">    <span class="comment">// consumer.accept(((name, supplier) -&gt; map.put(name, supplier)));</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// accept 实现方式 2</span></span><br><span class="line">    consumer.accept(<span class="keyword">new</span> Builder() &#123;</span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(WeaponType name, Supplier&lt;Weapon&gt; supplier)</span> </span>&#123;</span><br><span class="line">            map.put(name, supplier);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="comment">// create 非 lambda 实现方式 </span></span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> WeaponFactory() &#123;</span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> Weapon <span class="title">create</span><span class="params">(WeaponType name)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> map.get(name).get();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Lambda-方式初始化-WeaponFactory"><a href="#Lambda-方式初始化-WeaponFactory" class="headerlink" title="Lambda 方式初始化 WeaponFactory"></a>Lambda 方式初始化 <code>WeaponFactory</code></h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> WeaponFactory <span class="title">getWeaponFactory_lam</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> WeaponFactory.factory(builder -&gt; &#123;</span><br><span class="line">        builder.add(WeaponType.SWORD, Sword::<span class="keyword">new</span>);</span><br><span class="line">        builder.add(WeaponType.AXE, Axe::<span class="keyword">new</span>);</span><br><span class="line">        builder.add(WeaponType.SPEAR, Spear::<span class="keyword">new</span>);</span><br><span class="line">        builder.add(WeaponType.BOW, Bow::<span class="keyword">new</span>);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="非-Lambda-方式初始化-WeaponFactory"><a href="#非-Lambda-方式初始化-WeaponFactory" class="headerlink" title="非 Lambda 方式初始化  WeaponFactory"></a>非 Lambda 方式初始化  <code>WeaponFactory</code></h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> WeaponFactory <span class="title">getWeaponFactory</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> WeaponFactory.factory(<span class="keyword">new</span> Consumer&lt;Builder&gt;() &#123;</span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">accept</span><span class="params">(Builder builder)</span> </span>&#123;</span><br><span class="line">            builder.add(WeaponType.SWORD, <span class="keyword">new</span> Supplier&lt;Weapon&gt;() &#123;</span><br><span class="line">                <span class="meta">@Override</span></span><br><span class="line">                <span class="function"><span class="keyword">public</span> Weapon <span class="title">get</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">new</span> Sword();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            builder.add(WeaponType.AXE, () -&gt; <span class="keyword">new</span> Axe());</span><br><span class="line">            builder.add(WeaponType.SPEAR, Spear::<span class="keyword">new</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="相关资料"><a href="#相关资料" class="headerlink" title="相关资料"></a>相关资料</h2><ul>
+<li><a href="http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/" target="_blank" rel="noopener">深入理解 Java 8 Lambda</a></li>
+<li><a href="https://www.zhihu.com/question/28565691" target="_blank" rel="noopener">知乎 java 双冒号是什么操作符?</a></li>
+<li><a href="http://cr.openjdk.java.net/~briangoetz/lambda/lambda-state-final.html" target="_blank" rel="noopener">State of the Lambda</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://corningsun.com/十大经典排序算法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1943,185 +2130,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://corningsun.com/SonarQubeFilters/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Corning Sun">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/ning.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Corning Sun's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/SonarQubeFilters/" itemprop="url">SonarQube 过滤器使用说明</a></h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-28T14:15:37Z">
-                2017-02-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Tools/" itemprop="url" rel="index">
-                    <span itemprop="name">Tools</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Tools/SonarQube/" itemprop="url" rel="index">
-                    <span itemprop="name">SonarQube</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/SonarQubeFilters/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="SonarQubeFilters/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/SonarQubeFilters/" class="leancloud_visitors" data-flag-title="SonarQube 过滤器使用说明">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h1><p>使用 SonarQube 管理项目，当项目太多时，管理会非常困难。需要对项目进行自定义分组管理。</p>
-<p><img src="http://corningsun.qiniudn.com/blog/2017-02-28-061949.jpg-o" alt></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/SonarQubeFilters/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2174,7 +2182,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">38</span>
+                  <span class="site-state-item-count">39</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
