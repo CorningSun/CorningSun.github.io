@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[AI 生成图片]]></title>
     <url>%2FAiImageDesigner%2F</url>
-    <content type="text"><![CDATA[欢迎转载，原文链接：https://corningsun.com/AI 生成图片 ## 网站：https://designer.microsoft.com/ 费用：免费 输入：The auction robot, implemented with a browser plugin, holds a hammer in its hand 结果：]]></content>
+    <content type="text"><![CDATA[欢迎转载，原文链接：https://corningsun.com/AiImageDesigner ## 网站：https://designer.microsoft.com/ 费用：免费 输入：The auction robot, implemented with a browser plugin, holds a hammer in its hand 结果：]]></content>
   </entry>
   <entry>
     <title><![CDATA[恋爱套路]]></title>
@@ -43,8 +43,8 @@
     <url>%2FIdeaPlugins%2F</url>
     <content type="text"><![CDATA[记录自己用的 Idea 插件 Maven Helper SonarLint Alibaba Java Coding Guidelines AceJump Markdown support PlantUML integration RestfulTool Rainbow Brackets GsonFormatPlus]]></content>
       <tags>
-        <tag>Tools</tag>
         <tag>Java</tag>
+        <tag>Tools</tag>
         <tag>Idea</tag>
       </tags>
   </entry>
