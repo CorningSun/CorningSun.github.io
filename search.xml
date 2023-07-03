@@ -54,7 +54,7 @@
   <entry>
     <title><![CDATA[Mac 工具整理]]></title>
     <url>%2FMacTools%2F</url>
-    <content type="text"><![CDATA[记录自己用的 Mac 软件 终端 brew zsh zsh-syntax-highlighting zsh-autosuggestions iTerm2 iTerm2-rzsz Git git Fork IDE jetbrains 全家桶 浏览器 Chrome 密码管理 Enpass 笔记 Mac 备忘录 印象笔记 虚拟机 Parallels Desktop 翻译 iTranslate Finder Go2Shell Easy new file 剪切板 Paste 2 图床 iPic PicGo 截图 Xnip QQ 自带截图 Gif：LICEcap 桌面 Irvue 翻墙 ClashX 私人云盘 SeaFile 办公 微软全家桶 MindNode XMind starUML plantuml typora 快捷键 CheatSheet keycastr]]></content>
+    <content type="text"><![CDATA[记录自己用的 Mac 软件 终端 brew zsh zsh-syntax-highlighting zsh-autosuggestions iTerm2 iTerm2-rzsz Git git Fork IDE EAP 版本 jetbrains 全家桶 浏览器 Chrome 密码管理 Enpass 笔记 Mac 备忘录 Joplin 虚拟机 Parallels Desktop VMware 翻译 youdao 浏览器插件 - 沉浸式翻译 Finder Go2Shell Easy new file 剪切板 Paste 2 图床 PicGo 截图 Xnip QQ 自带截图 Gif：LICEcap 桌面 Irvue 翻墙 ClashX 私人云盘 SeaFile Markdown typora Mermaid plantuml starUML 脑图 MindNode XMind 文本编辑 CotEditor 快捷键 CheatSheet keycastr 下载 Neatdownloadmanager 浏览器并发下载 其它 微软全家桶 filezilla linux 服务器文件传输 MessAuto macOS 平台 自动提取 短信验证码并 粘贴回车 的软件]]></content>
       <tags>
         <tag>Tools</tag>
         <tag>Mac</tag>
